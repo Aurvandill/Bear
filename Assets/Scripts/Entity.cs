@@ -9,6 +9,6 @@ public class Entity : MonoBehaviour
 
 	public bool IsAlive
 	{
-		get { return Health > 0; }
+        get { return _currentHealth > 0; }
 	}
 }
