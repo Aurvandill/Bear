@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Melee : MonoBehaviour {
+public class Melee : Enemy
+{
 
 	// Use this for initialization
 	void Start () {

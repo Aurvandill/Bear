@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Magic : MonoBehaviour {
+public class Wearable : MonoBehaviour 
+{
+    [SerializeField]
+    private WearableType _type;
 
 	// Use this for initialization
 	void Start () {
