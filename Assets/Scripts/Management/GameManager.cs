@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour {
 
     public GameObject PauseMenu;
+    public GameObject GameEndingInfoPrefab;
 
     private Dictionary<GameEvent, int> _gameStates;
     private List<StoryLine> _storyLines;
@@ -23,6 +24,12 @@ public class GameManager : MonoBehaviour {
         {
             Time.timeScale = 0;
             Instantiate(PauseMenu);
+        }
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            onNotify(GameEvent.wa_Weapon_Equipped);
+            onNotify(GameEvent.wa_Weapon_Equipped, true);
+            onNotify(GameEvent.pl_Cave_Entered);
         }
     }
 
@@ -110,9 +117,7 @@ public class GameManager : MonoBehaviour {
     private void UpdateGameState(GameEvent gameEvent, bool undo)
     {
         if (!undo && !_gameStates.ContainsKey(gameEvent))
-            _gameStates[gameEvent] = 1;
-        else if (undo && _gameStates.ContainsKey(gameEvent) && _gameStates[gameEvent] < 1)
-            _gameStates.Remove(gameEvent);
+            _gameStates.Add(gameEvent, 1);
         else
             _gameStates[gameEvent] += (undo ? -1 : 1);
 
@@ -135,7 +140,10 @@ public class GameManager : MonoBehaviour {
 
         if (win)
         {
-            Debug.LogWarning("WINNING! " + finished.Name);
+            Instantiate(GameEndingInfoPrefab);
+            var g = GameObject.Find("GameEndingInfo(Clone)");
+            g.GetComponent<GameEndingInfo>().Ending = "Ending: " + finished.Name;
+            Application.LoadLevel("GameOver");
         }
     }
     

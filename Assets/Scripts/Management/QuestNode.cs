@@ -44,7 +44,11 @@ public class QuestNode : System.Object
             bool conditionsAreMet = false;
             foreach (var c in _questConditions)
             {
-                if (!c.IsMet(list)) { break; }
+                if (!c.IsMet(list))
+                {
+                    conditionsAreMet = false;
+                    break;
+                }
                 conditionsAreMet = true;
             }
             if (!conditionsAreMet) { return false; }
