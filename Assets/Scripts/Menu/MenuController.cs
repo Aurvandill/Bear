@@ -5,7 +5,7 @@ public class MenuController : MonoBehaviour {
 
     public void Play()
     {
-        // TODO load scene
+        Application.LoadLevel("Forest");
     }
 
     public void Exit()

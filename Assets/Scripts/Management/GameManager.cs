@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour {
 
+    public GameObject PauseMenu;
+
     private Dictionary<GameEvent, int> _gameStates;
     private List<StoryLine> _storyLines;
 
@@ -15,7 +17,14 @@ public class GameManager : MonoBehaviour {
 
         InitStorylines();
     }
-
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && GameObject.Find("PauseMenu(Clone)") == null)
+        {
+            Time.timeScale = 0;
+            Instantiate(PauseMenu);
+        }
+    }
 
     public void onNotify(GameEvent gameEvent)
     {
