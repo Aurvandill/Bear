@@ -3,28 +3,29 @@ using System.Collections;
 
 public abstract class Creature : Entity
 {
-		[SerializeField]
-		private float _initialHealth;
+	[SerializeField]
+	private float _initialHealth;
     [SerializeField]
     protected float _moveSpeed;
-		[SerializeField]
+	[SerializeField]
     protected Wearable _currentWearable;
     [SerializeField]
     protected Weapon _currentWeapon;
 
-		private float _currentHealth;
+    private GameManager _gameManager;
+	private float _currentHealth;
 
-    public override void Start()
-				base.Start();
+    public override void Start() {
+		base.Start();
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         _currentHealth = _initialHealth;
 		
-		}
+	}
 		
-		public bool IsAlive
-		{
-				get { return _currentHealth > 0; }
-		}
+	public bool IsAlive
+	{
+		get { return _currentHealth > 0; }
+	}
 
     public virtual void ApplyDamage(float damage)
     {
