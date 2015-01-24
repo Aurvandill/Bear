@@ -2,8 +2,8 @@ fileFormatVersion: 2
 guid: 0bef7255628ea0e449e01588b4770cc9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Terrain 001_0
-    21300002: Terrain 001_1
+    21300000: Ground
+    21300002: Moss
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,7 +45,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: Terrain 001_0
+    - name: Ground
       rect:
         serializedVersion: 2
         x: 0
@@ -55,7 +55,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Terrain 001_1
+    - name: Moss
       rect:
         serializedVersion: 2
         x: 226
