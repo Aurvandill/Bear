@@ -10,14 +10,10 @@ public class MeleeWeapon : Weapon
 
     public override void Attack()
     {
-        if (CanAttack())
+        foreach (var entity in EntitiesInAttackRange)
         {
-            //animation
-            foreach (var entity in EntitiesInAttackRange)
-            {
-                entity.ApplyDamage(_baseDamage);
-                entity.KnockBack(Vector2.right * transform.parent.localScale.x * _knockBackImpact);
-            }
+            entity.ApplyDamage(_baseDamage);
+            entity.KnockBack(Vector2.right * transform.parent.localScale.x * _knockBackImpact);
         }
     }
 }

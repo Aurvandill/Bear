@@ -3,23 +3,43 @@ using System.Collections;
 
 public abstract class Creature : Entity
 {
-    private GameManager _gameManager;
+		[SerializeField]
+		private float _initialHealth;
+    [SerializeField]
+    protected float _moveSpeed;
+		[SerializeField]
+    protected Wearable _currentWearable;
+    [SerializeField]
+    protected Weapon _currentWeapon;
+
+		private float _currentHealth;
 
     public override void Start()
-    {
-        base.Start();
+				base.Start();
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        _currentHealth = _initialHealth;
+		
+		}
+		
+		public bool IsAlive
+		{
+				get { return _currentHealth > 0; }
+		}
+
+    public virtual void ApplyDamage(float damage)
+    {
+        _currentHealth -= damage;
+
+        OnHealthChanged(_currentHealth);
     }
 
-    protected void NotifyGameEvent(GameEvent gameEvent)
+    public void KnockBack(Vector3 force)
     {
-        if (_gameManager != null)
-        {
-            _gameManager.onNotify(gameEvent);
-        }
-        else
-        {
-            Debug.LogWarning("No GameManager component found");
-        }
+        rigidbody2D.AddForce(force, ForceMode2D.Impulse);
+    }
+
+    protected virtual void OnHealthChanged(float health)
+    {
+
     }
 }

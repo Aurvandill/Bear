@@ -21,7 +21,7 @@ AnimationClip:
       value: {fileID: 21300002, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
     - time: .333333343
       value: {fileID: 21300000, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
-    - time: .649999976
+    - time: .483333319
       value: {fileID: 21300000, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
     attribute: m_Sprite
     path: 
@@ -47,7 +47,7 @@ AnimationClip:
   m_AnimationClipSettings:
     serializedVersion: 2
     m_StartTime: 0
-    m_StopTime: .666666627
+    m_StopTime: .5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -63,4 +63,11 @@ AnimationClip:
     m_Mirror: 0
   m_EditorCurves: []
   m_EulerEditorCurves: []
-  m_Events: []
+  m_Events:
+  - time: .333333343
+    functionName: ExecuteAttack
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

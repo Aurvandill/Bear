@@ -3,9 +3,18 @@ using System.Collections;
 
 public class Melee : Enemy
 {
+    private bool stopped = false;
+    private Animator animator;
+
+    public override void Start()
+    {
+        base.Start();
+        animator = GetComponent<Animator>();
+    }
+
     private void Update()
     {
-        Attack();
+        PrepareAttack();
     }
 
     void FixedUpdate()
@@ -15,7 +24,7 @@ public class Melee : Enemy
 
     private void Move()
     {
-        if (!_currentWeapon.IsTargetInRange())
+        if (!_currentWeapon.IsTargetInRange() && !stopped)
         {
             Vector3 targetPos = transform.position;
 
@@ -37,14 +46,27 @@ public class Melee : Enemy
             {
                 transform.localScale = new Vector3(direction1D, transform.localScale.y, transform.localScale.z);
             }
+
+            animator.SetFloat("Speed", direction.magnitude);
         }
     }
 
-    private void Attack()
+    private void PrepareAttack()
+    {
+        if (_currentWeapon.RequestIsReady())
+        {
+            animator.SetTrigger("Attack");
+            stopped = true;
+        }
+    }
+
+    private void ExecuteAttack()
     {
         if (_currentWeapon.IsTargetInRange())
         {
-            _currentWeapon.Attack();
+            _currentWeapon.Attack();          
         }
+
+        stopped = false;
     }
 }
