@@ -11,6 +11,7 @@ public class Player : Creature
 
 
     Animator _animator;
+    float _speed = 1f;
 
     public override void Start()
     {
@@ -31,10 +32,13 @@ public class Player : Creature
 
     private void Move()
     {
-        float moveH = Input.GetAxis("Horizontal") * _moveSpeed;
-        float moveV = Input.GetAxis("Vertical") * _moveSpeed;
+        _speed = Input.GetAxis("Charge") + 1f;
+
+        float moveH = Input.GetAxis("Horizontal") * _moveSpeed * _speed;
+        float moveV = Input.GetAxis("Vertical") * _moveSpeed * _speed;
 
         var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
+
 
         transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
 
@@ -46,9 +50,10 @@ public class Player : Creature
 
         if (_animator != null)
         {
-
             _animator.SetFloat("Speed", Mathf.Abs(moveH) * 10 + Mathf.Abs(moveV) * 10);
         }
+
+        _animator.SetBool("Run", _speed > 1f);
     }
 
     private void Attack()
