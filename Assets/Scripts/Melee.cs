@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Melee : Enemy
 {
-    private void PrepareAttack()
+    private void Update()
     {
-        Attack();
+        PrepareAttack();
     }
 
     void FixedUpdate()
