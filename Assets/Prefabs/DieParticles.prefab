@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 487142}
   - 198: {fileID: 19887142}
   - 199: {fileID: 19987142}
+  - 114: {fileID: 11400518}
   m_Layer: 0
   m_Name: DieParticles
   m_TagString: Untagged
@@ -29,13 +30,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11400518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9cb400ffba0a9a419c8bf712722b482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!198 &19887142
 ParticleSystem:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187142}
-  lengthInSec: 5
+  lengthInSec: .5
   startDelay: 0
   speed: 1
   randomSeed: 0
@@ -193,8 +205,8 @@ ParticleSystem:
         rgba: 4294967295
       maxColor:
         serializedVersion: 2
-        rgba: 4294967295
-      minMaxState: 0
+        rgba: 4294639497
+      minMaxState: 2
     startSize:
       scalar: .5
       maxCurve:
@@ -303,7 +315,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
       minMaxState: 0
-    cnt0: 30
+    cnt0: 50
     cnt1: 30
     cnt2: 30
     cnt3: 30

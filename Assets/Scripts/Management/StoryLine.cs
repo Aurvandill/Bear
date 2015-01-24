@@ -2,28 +2,26 @@
 using System;
 using System.Collections.Generic;
 
-[System.Serializable]
 public class StoryLine : System.Object
 {
-    [SerializeField]
-    private string _name;
-    [SerializeField]
+    public string Name { get; private set; }
+
     private List<QuestNode> _questNodes;
 
 
     public StoryLine(string name)
     {
-        _name = name;
+        Name = name;
         _questNodes = new List<QuestNode>();
     }
 
 
-    public StoryLine AddChild(QuestNode child)
+    public StoryLine AddChildren(QuestNode child)
     {
         _questNodes.Add(child);
         return this;
     }
-    public StoryLine AddChild(List<QuestNode> children)
+    public StoryLine AddChildren(List<QuestNode> children)
     {
         _questNodes.AddRange(children);
         return this;

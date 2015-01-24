@@ -2,13 +2,10 @@
 using System;
 using System.Collections.Generic;
 
-[System.Serializable]
 public class QuestNode : System.Object
 {
-    [SerializeField]
-    private List<QuestNode> _questNodes;
-    [SerializeField]
     private List<QuestCondition> _questConditions;
+    private List<QuestNode> _questNodes;
     private bool _hasFinished;
 
 
@@ -20,22 +17,22 @@ public class QuestNode : System.Object
     }
 
 
-    public QuestNode AddChild(QuestNode child)
+    public QuestNode AddChildren(QuestNode child)
     {
         _questNodes.Add(child);
         return this;
     }
-    public QuestNode AddChild(List<QuestNode> children)
+    public QuestNode AddChildren(List<QuestNode> children)
     {
         _questNodes.AddRange(children);
         return this;
     }
-    public QuestNode AddCondition(QuestCondition condition)
+    public QuestNode AddConditions(QuestCondition condition)
     {
         _questConditions.Add(condition);
         return this;
     }
-    public QuestNode AddCondition(List<QuestCondition> conditions)
+    public QuestNode AddConditions(List<QuestCondition> conditions)
     {
         _questConditions.AddRange(conditions);
         return this;

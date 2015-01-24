@@ -15,17 +15,20 @@ public abstract class Creature : Entity
     [SerializeField]
     protected Weapon _currentWeapon;
 
+    private GameManager _gameManager;
 	private float _currentHealth;
 
+    public override void Start() {
+		base.Start();
+        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        _currentHealth = _initialHealth;
+		
+	}
+		
 	public bool IsAlive
 	{
-        get { return _currentHealth > 0; }
+		get { return _currentHealth > 0; }
 	}
-
-    public virtual void Start()
-    {
-        _currentHealth = _initialHealth;
-    }
 
     public virtual void ApplyDamage(float damage)
     {
