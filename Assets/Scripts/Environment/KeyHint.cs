@@ -16,7 +16,7 @@ public class KeyHint : MonoBehaviour {
     [SerializeField]
     private TextMesh _hintMesh;
 
-    private List<MeshRenderer> _renderers;
+    private List<MeshRenderer> _renderers = new List<MeshRenderer>();
 
 	// Use this for initialization
 	void Start () {
