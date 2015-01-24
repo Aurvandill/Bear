@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public abstract class Weapon : MonoBehaviour
+public abstract class Weapon : Pickup
 {
     [SerializeField]
     protected GameObject _impactRange;
