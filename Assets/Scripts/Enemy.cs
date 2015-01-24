@@ -1,29 +1,47 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : Entity
+public abstract class Enemy : Entity
 {
-	[SerializeField]
-	private float _aggressionRange;
+    protected Entity CurrentTarget { get; private set; }
+    protected Vector3 ReturnPosition { get; private set; }
+
     [SerializeField]
-    private float _movementRange;
+    protected GameObject _aggressionRange;
+    [SerializeField]
+    protected GameObject _disengageRange;
 
-    private Entity _currentTarget;
 
-    private void Update()
+    public void Start()
     {
+        ReturnPosition = transform.position;
+    }
+
+
+    public override void Attack(Entity target)
+    {
+        target.ApplyDamage(_baseDamage);
+    }
+    public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
+    {
+        if (args.SenderId.Equals(_aggressionRange.name))
+        {
+            var player = args.Entity as Player;
+            if (player != null)
+            {
+                CurrentTarget = player;
+            }
+        }
+        if (args.SenderId.Equals(_attackRange.name))
+        {
+        }
         
     }
-
-    public void Attack(Entity target)
+    public void OnEntityCollisionExit(EntityCollisionEventArgs args)
     {
-        target.ApplyDamage();
-    }
-
-    private bool IsEntityInAggressionRange(Entity entity)
-    {
-        var positionDelta = Mathf.Abs(entity.transform.position.x - transform.position.x);
-
-        return positionDelta <= _aggressionRange;
+        if (args.SenderId.Equals(_disengageRange.name))
+        {
+            CurrentTarget = null;
+        }
     }
 }
