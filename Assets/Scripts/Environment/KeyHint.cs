@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class KeyHint : MonoBehaviour {
 
     [SerializeField]
@@ -17,10 +18,13 @@ public class KeyHint : MonoBehaviour {
     private TextMesh _hintMesh;
 
     private List<MeshRenderer> _renderers = new List<MeshRenderer>();
+    private SpriteRenderer _renderer;
 
 	// Use this for initialization
 	void Start () {
-	    
+
+        _renderer = GetComponent<SpriteRenderer>();
+
         for (int i = 0; i < transform.childCount; i++)
         {
             MeshRenderer mr = transform.GetChild(i).GetComponent<MeshRenderer>();
@@ -57,6 +61,8 @@ public class KeyHint : MonoBehaviour {
 
     void SetVisibility(bool visible)
     {
+        _renderer.enabled = visible;
+
         for (int i = 0; i < _renderers.Count; i++)
         {
             _renderers[i].enabled = visible;
