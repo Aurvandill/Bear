@@ -10,7 +10,6 @@ public class MeleeWeapon : Weapon
 
     public override void Attack()
     {
-        var destroyed = new List<Creature>();
         foreach (var entity in EntitiesInAttackRange)
         {
             entity.ApplyDamage(_baseDamage);
