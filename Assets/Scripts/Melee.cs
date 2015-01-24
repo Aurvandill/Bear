@@ -47,7 +47,11 @@ public class Melee : Enemy
                 transform.localScale = new Vector3(direction1D, transform.localScale.y, transform.localScale.z);
             }
 
-            _animator.SetFloat("Speed", direction.magnitude);
+            _animator.SetFloat("Speed", 1);
+        }
+        else
+        {
+            _animator.SetFloat("Speed", 0);
         }
     }
 

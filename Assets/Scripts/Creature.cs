@@ -51,7 +51,7 @@ public abstract class Creature : Entity
 
     protected virtual void OnEntityDied()
     {
-        Instantiate(_dieParticle, transform.position, Quaternion.EulerRotation(-90, 0, 0));
+        Instantiate(_dieParticle, transform.position, Quaternion.Euler(-90, 0, 0));
         Destroy(gameObject);
     }
 }

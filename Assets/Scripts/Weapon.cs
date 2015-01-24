@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 public abstract class Weapon : MonoBehaviour
 {
@@ -13,11 +14,12 @@ public abstract class Weapon : MonoBehaviour
 
     public bool IsReady = true;
 
-    private float _currentWaitTime;
-
     protected List<Creature> EntitiesInAttackRange = new List<Creature>();
 
-    public abstract void Attack();
+    public virtual void Attack()
+    {
+        EntitiesInAttackRange.RemoveAll(e => !e.IsAlive);
+    }
 
     public bool RequestIsReady()
     {
