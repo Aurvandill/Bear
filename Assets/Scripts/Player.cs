@@ -1,14 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : Entity
 {
-    private List<Entity> EnemiesInAttackRange = new List<Entity>();
+    [SerializeField]
+    private Slider _slider;
+
+
+    Animator _animator;
+
+    public void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
     public void Update()
     {
-        StartAttack();
+        Attack();
     }
 
     public void FixedUpdate()
@@ -16,57 +27,41 @@ public class Player : Entity
         Move();
     }
 
-    public override void Attack(Entity target)
-    {
-        target.ApplyDamage(_baseDamage);
-    }
-
-
     private void Move()
     {
         float moveH = Input.GetAxis("Horizontal") * _moveSpeed;
         float moveV = Input.GetAxis("Vertical") * _moveSpeed;
 
-        rigidbody2D.velocity = new Vector2(moveH, moveV);
+        var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
+
+        transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
+
+        if (direction != 0)
+        {
+            transform.localScale = new Vector3(direction, transform.localScale.y, transform.localScale.z);
+        }
+
+
+        if (_animator != null)
+        {
+
+            _animator.SetFloat("Speed", Mathf.Abs(moveH) * 10 + Mathf.Abs(moveV) * 10);
+        }
     }
 
-    private void StartAttack()
+    private void Attack()
     {
         if (Input.GetAxisRaw("Attack") == 1)
         {
-            //add animation
+            //_currentWeapon.Attack();
         }
     }
 
-    private void EndAttack()
+    protected override void OnHealthChanged(float health)
     {
-        foreach (var enemy in EnemiesInAttackRange)
+        if (_slider != null)
         {
-            _currentWeapon.AttackEntity(enemy);
-        }
-    }
-
-    public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
-    {
-        if (args.SenderId.Equals(_attackRange.name))
-        {
-            var enemy = args.Entity as Enemy;
-            if (enemy != null)
-            {
-                EnemiesInAttackRange.Add(enemy);
-            }
-        }
-    }
-
-    public void OnEntityCollisionExit(EntityCollisionEventArgs args)
-    {
-        if (args.SenderId.Equals(_attackRange.name))
-        {
-            var enemy = args.Entity as Enemy;
-            if (enemy != null)
-            {
-                EnemiesInAttackRange.Remove(enemy);
-            }
+            _slider.value = health;
         }
     }
 }

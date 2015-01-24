@@ -3,20 +3,48 @@ using System.Collections;
 
 public class Melee : Enemy
 {
+    private void Update()
+    {
+        Attack();
+    }
+
     void FixedUpdate()
     {
-        Vector3 targetPos = transform.position;
+        Move();
+    }
 
-        if (CurrentTarget != null)
+    private void Move()
+    {
+        if (!_currentWeapon.IsTargetInRange())
         {
-            targetPos = CurrentTarget.gameObject.transform.position;
-        }
-        else if ((transform.position - ReturnPosition).magnitude > 0.1)
-        {
-            targetPos = ReturnPosition;
-        }
+            Vector3 targetPos = transform.position;
 
-        var direction = (targetPos - transform.position).normalized;
-        rigidbody2D.velocity = direction * _moveSpeed;
+            if (CurrentTarget != null)
+            {
+                targetPos = CurrentTarget.gameObject.transform.position;
+            }
+            else if ((transform.position - ReturnPosition).magnitude > 0.1)
+            {
+                targetPos = ReturnPosition;
+            }
+
+            var direction = (targetPos - transform.position).normalized;
+            transform.position = transform.position + direction * _moveSpeed;
+
+            var direction1D = (direction.x == 0) ? 0 : ((direction.x > 0) ? 1 : -1);
+
+            if (direction1D != 0)
+            {
+                transform.localScale = new Vector3(direction1D, transform.localScale.y, transform.localScale.z);
+            }
+        }
+    }
+
+    private void Attack()
+    {
+        if (_currentWeapon.IsTargetInRange())
+        {
+            _currentWeapon.Attack();
+        }
     }
 }

@@ -18,11 +18,6 @@ public abstract class Enemy : Entity
         ReturnPosition = transform.position;
     }
 
-
-    public override void Attack(Entity target)
-    {
-        target.ApplyDamage(_baseDamage);
-    }
     public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
     {
         if (args.SenderId.Equals(_aggressionRange.name))
@@ -33,10 +28,8 @@ public abstract class Enemy : Entity
                 CurrentTarget = player;
             }
         }
-        if (args.SenderId.Equals(_attackRange.name))
-        {
-        }
     }
+
     public void OnEntityCollisionExit(EntityCollisionEventArgs args)
     {
         if (args.SenderId.Equals(_disengageRange.name))
