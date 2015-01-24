@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Entity : Creature
+public abstract class Entity : MonoBehaviour
 {
 	[SerializeField]
 	private float _initialHealth;

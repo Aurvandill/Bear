@@ -2,14 +2,10 @@
 using System;
 using System.Collections.Generic;
 
-[System.Serializable]
 public class QuestCondition : System.Object
 {
-    [SerializeField]
     private GameEvent _event;
-    [SerializeField]
     private ComparisonOperator _operator;
-    [SerializeField]
     private int _value;
 
 

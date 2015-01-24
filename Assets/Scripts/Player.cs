@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : Entity
+public class Player : Creature
 {
     [SerializeField]
     private Slider _slider;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Enemy : Entity
+public abstract class Enemy : Creature
 {
     protected Entity CurrentTarget { get; set; }
     protected Vector3 ReturnPosition { get; private set; }

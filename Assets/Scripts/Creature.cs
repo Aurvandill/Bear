@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Creature : MonoBehaviour
+public abstract class Creature : Entity
 {
     private GameManager _gameManager;
 
-    public virtual void Start()
+    public override void Start()
     {
+        base.Start();
         _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
