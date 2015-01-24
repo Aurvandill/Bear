@@ -48,8 +48,9 @@ public abstract class Enemy : Creature
 
     protected override void OnEntityDied()
     {
-        base.OnEntityDied();
 
         _currentWeapon.Drop(transform.position);
+
+        base.OnEntityDied();
     }
 }

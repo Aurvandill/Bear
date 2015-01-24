@@ -12,6 +12,7 @@ public class Player : Creature
 
     Animator _animator;
     float _speed = 1f;
+    bool _stopped = false;
 
     public override void Start()
     {
@@ -22,7 +23,7 @@ public class Player : Creature
 
     public void Update()
     {
-        Attack();
+        PrepareAttack();
     }
 
     public void FixedUpdate()
@@ -32,36 +33,40 @@ public class Player : Creature
 
     private void Move()
     {
-        _speed = Input.GetAxis("Charge") + 1f;
-
-        float moveH = Input.GetAxis("Horizontal") * _moveSpeed * _speed;
-        float moveV = Input.GetAxis("Vertical") * _moveSpeed * _speed;
-
-        var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
-
-
-        transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
-
-        if (direction != 0)
+        if (!_stopped)
         {
-            transform.localScale = new Vector3(direction, transform.localScale.y, transform.localScale.z);
+            _speed = Input.GetAxis("Charge") + 1f;
+
+            float moveH = Input.GetAxis("Horizontal") * _moveSpeed * _speed;
+            float moveV = Input.GetAxis("Vertical") * _moveSpeed * _speed;
+
+            var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
+
+
+            transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
+
+            if (direction != 0)
+            {
+                transform.localScale = new Vector3(direction, transform.localScale.y, transform.localScale.z);
+            }
+
+
+            if (_animator != null)
+            {
+                _animator.SetFloat("Speed", Mathf.Abs(moveH) * 10 + Mathf.Abs(moveV) * 10);
+            }
+
+            _animator.SetBool("Run", _speed > 1f);
         }
-
-
-        if (_animator != null)
-        {
-            _animator.SetFloat("Speed", Mathf.Abs(moveH) * 10 + Mathf.Abs(moveV) * 10);
-        }
-
-        _animator.SetBool("Run", _speed > 1f);
     }
 
-    private void Attack()
+    private void PrepareAttack()
     {
         if (Input.GetAxisRaw("Attack") == 1 &&
-            _currentWeapon.RequestIsReady())
+            _currentWeapon.RequestIsReady() && _speed <= 1f)
         {
-            _currentWeapon.Attack();
+            _animator.SetTrigger("Attack");
+            _stopped = true;
         }
     }
 
@@ -71,5 +76,11 @@ public class Player : Creature
         {
             _slider.value = health;
         }
+    }
+
+    private void ExecuteAttack()
+    {
+        _currentWeapon.Attack();
+        _stopped = false;
     }
 }
