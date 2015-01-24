@@ -53,7 +53,8 @@ public class Player : Creature
 
     private void Attack()
     {
-        if (Input.GetAxisRaw("Attack") == 1)
+        if (Input.GetAxisRaw("Attack") == 1 &&
+            _currentWeapon.RequestIsReady())
         {
             _currentWeapon.Attack();
         }

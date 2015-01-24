@@ -42,7 +42,7 @@ public class Melee : Enemy
 
     private void PrepareAttack()
     {
-        if (_currentWeapon.IsReady())
+        if (_currentWeapon.RequestIsReady())
         {
             var animator = GetComponent<Animator>();
             animator.SetTrigger("Attack");

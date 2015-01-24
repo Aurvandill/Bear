@@ -1374,7 +1374,7 @@ GameObject:
   - 114: {fileID: 100686887}
   - 50: {fileID: 100686886}
   - 61: {fileID: 100686885}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20837,6 +20837,7 @@ MonoBehaviour:
   _impactRange: {fileID: 253189785}
   _baseDamage: 10
   _cooldown: 5
+  IsReady: 1
   _knockBackImpact: 4
 --- !u!1 &1486418851
 GameObject:
@@ -22458,6 +22459,7 @@ MonoBehaviour:
   _impactRange: {fileID: 317679490}
   _baseDamage: 10
   _cooldown: 5
+  IsReady: 1
   _knockBackImpact: 4
 --- !u!4 &1623804918
 Transform:

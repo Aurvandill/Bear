@@ -11,23 +11,31 @@ public abstract class Weapon : MonoBehaviour
     [SerializeField]
     protected float _cooldown;
 
+    public bool IsReady = true;
+
     private float _currentWaitTime;
 
     protected List<Creature> EntitiesInAttackRange = new List<Creature>();
 
     public abstract void Attack();
 
-    public bool IsReady()
+    public bool RequestIsReady()
     {
-        _currentWaitTime += Time.deltaTime;
-
-        if (_currentWaitTime > _cooldown)
+        if (IsReady)
         {
-            _currentWaitTime = 0;
+            StartCoroutine(WaitForAttack());
+
             return true;
         }
 
         return false;
+    }
+
+    public IEnumerator WaitForAttack()
+    {
+        IsReady = false;
+        yield return new WaitForSeconds(_cooldown);
+        IsReady = true;
     }
 
     public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
