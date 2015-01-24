@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Melee : Enemy
 {
-    private void Update()
+    private void PrepareAttack()
     {
         Attack();
     }
@@ -40,7 +40,16 @@ public class Melee : Enemy
         }
     }
 
-    private void Attack()
+    private void PrepareAttack()
+    {
+        if (_currentWeapon.IsReady())
+        {
+            var animator = GetComponent<Animator>();
+            animator.SetTrigger("Attack");
+        }
+    }
+
+    private void ExecuteAttack()
     {
         if (_currentWeapon.IsTargetInRange())
         {

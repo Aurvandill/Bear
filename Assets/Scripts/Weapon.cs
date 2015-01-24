@@ -17,7 +17,7 @@ public abstract class Weapon : MonoBehaviour
 
     public abstract void Attack();
 
-    protected bool CanAttack()
+    public bool IsReady()
     {
         _currentWaitTime += Time.deltaTime;
 

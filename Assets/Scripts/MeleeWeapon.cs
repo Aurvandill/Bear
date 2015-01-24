@@ -10,7 +10,7 @@ public class MeleeWeapon : Weapon
 
     public override void Attack()
     {
-        if (CanAttack())
+        if (IsReady())
         {
             //animation
             foreach (var entity in EntitiesInAttackRange)

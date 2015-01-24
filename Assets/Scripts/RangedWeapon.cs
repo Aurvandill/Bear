@@ -10,7 +10,7 @@ public class RangedWeapon : Weapon
 
     public override void Attack()
     {
-        if (CanAttack())
+        if (IsReady())
         {
             var projectile = Instantiate(_projectilePrefab, transform.position, new Quaternion()) as GameObject;
             projectile.GetComponent<Projectile>().Damage = _baseDamage;
