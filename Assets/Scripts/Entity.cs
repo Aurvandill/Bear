@@ -23,10 +23,17 @@ public abstract class Entity : MonoBehaviour
     public virtual void ApplyDamage(float damage)
     {
         _currentHealth -= damage;
+
+        OnHealthChanged(_currentHealth);
     }
 
     public void KnockBack(Vector3 force)
     {
         rigidbody2D.AddForce(force, ForceMode2D.Impulse);
+    }
+
+    protected virtual void OnHealthChanged(float health)
+    {
+
     }
 }
