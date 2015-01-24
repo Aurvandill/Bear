@@ -15,7 +15,6 @@ public abstract class Enemy : Entity
     public override void Start()
     {
         base.Start();
-
         ReturnPosition = transform.position;
     }
 
