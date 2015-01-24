@@ -16,7 +16,7 @@ TextureImporter:
     21300022: Bear_Duck
     21300024: Bear_Attack_L1
     21300026: Bear_Attack_R1
-    21300028: Bear_Attack_L2
+    21300028: Bear_Attack_R2
     21300030: Bear_Attack_L2
     21300032: Bear_RunAttack_1
     21300034: Bear_RunAttack_2
@@ -185,42 +185,42 @@ TextureImporter:
     - name: Bear_Attack_L1
       rect:
         serializedVersion: 2
-        x: 2031
-        y: 733
+        x: 2033
+        y: 639
         width: 301
-        height: 214
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 310
+      alignment: 9
+      pivot: {x: .21984823, y: .502526462}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bear_Attack_R1
       rect:
         serializedVersion: 2
-        x: 2435
-        y: 735
-        width: 358
-        height: 214
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        x: 2424
+        y: 635
+        width: 368
+        height: 305
+      alignment: 9
+      pivot: {x: .270426869, y: .53037852}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bear_Attack_L2
       rect:
         serializedVersion: 2
         x: 2859
-        y: 737
+        y: 634
         width: 188
-        height: 212
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 315
+      alignment: 9
+      pivot: {x: .385726601, y: .531477451}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Bear_Attack_L2
+    - name: Bear_Attack_R2
       rect:
         serializedVersion: 2
         x: 3266
-        y: 731
+        y: 636
         width: 241
-        height: 222
-      alignment: 0
-      pivot: {x: .5, y: .5}
+        height: 315
+      alignment: 9
+      pivot: {x: .368523687, y: .492594391}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Bear_RunAttack_1
       rect:
