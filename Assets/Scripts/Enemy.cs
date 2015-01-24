@@ -12,8 +12,9 @@ public abstract class Enemy : Entity
     protected GameObject _disengageRange;
 
 
-    public void Start()
+    public override void Start()
     {
+        base.Start();
         ReturnPosition = transform.position;
     }
 
