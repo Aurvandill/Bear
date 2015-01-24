@@ -4,11 +4,9 @@ using System.Collections.Generic;
 
 public class Player : Entity
 {
-    private List<Entity> EnemiesInAttackRange = new List<Entity>();
-
     public void Update()
     {
-        StartAttack();
+        Attack();
     }
 
     public void FixedUpdate()
@@ -16,57 +14,26 @@ public class Player : Entity
         Move();
     }
 
-    public override void Attack(Entity target)
-    {
-        target.ApplyDamage(_baseDamage);
-    }
-
-
     private void Move()
     {
         float moveH = Input.GetAxis("Horizontal") * _moveSpeed;
         float moveV = Input.GetAxis("Vertical") * _moveSpeed;
 
-        rigidbody2D.velocity = new Vector2(moveH, moveV);
+        var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
+
+        transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
+
+        if (direction != 0)
+        {
+            transform.localScale = new Vector3(direction, transform.localScale.y, transform.localScale.z);
+        }
     }
 
-    private void StartAttack()
+    private void Attack()
     {
         if (Input.GetAxisRaw("Attack") == 1)
         {
-            //add animation
-        }
-    }
-
-    private void EndAttack()
-    {
-        foreach (var enemy in EnemiesInAttackRange)
-        {
-            _currentWeapon.AttackEntity(enemy);
-        }
-    }
-
-    public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
-    {
-        if (args.SenderId.Equals(_attackRange.name))
-        {
-            var enemy = args.Entity as Enemy;
-            if (enemy != null)
-            {
-                EnemiesInAttackRange.Add(enemy);
-            }
-        }
-    }
-
-    public void OnEntityCollisionExit(EntityCollisionEventArgs args)
-    {
-        if (args.SenderId.Equals(_attackRange.name))
-        {
-            var enemy = args.Entity as Enemy;
-            if (enemy != null)
-            {
-                EnemiesInAttackRange.Remove(enemy);
-            }
+            _currentWeapon.Attack();
         }
     }
 }

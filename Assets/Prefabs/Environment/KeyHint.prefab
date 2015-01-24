@@ -28,7 +28,7 @@ GameObject:
   - 212: {fileID: 21243222}
   - 61: {fileID: 6143222}
   - 114: {fileID: 11443222}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: KeyHint
   m_TagString: Untagged
   m_Icon: {fileID: 0}

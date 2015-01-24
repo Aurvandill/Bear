@@ -1,10 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class MeleeWeapon : Weapon
 {
-    public override void AttackEntity(Entity target)
+    [SerializeField]
+    protected float _knockBackImpact;
+
+
+    public override void Attack()
     {
-        target.ApplyDamage(_baseDamage);
+        //animation
+        foreach (var entity in EntitiesInAttackRange)
+        {
+            entity.ApplyDamage(_baseDamage);
+            entity.KnockBack(Vector2.right * transform.parent.localScale.x * _knockBackImpact);
+        }
     }
 }
