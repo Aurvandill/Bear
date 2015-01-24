@@ -1,24 +1,44 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Creature : MonoBehaviour
+public abstract class Creature : Entity
 {
-    private GameManager _gameManager;
+	[SerializeField]
+	private float _initialHealth;
+    [SerializeField]
+    protected float _moveSpeed;
+
+    [SerializeField]
+    protected Wearable _currentWearable;
+    [SerializeField]
+    protected Weapon _currentWeapon;
+
+	private float _currentHealth;
+
+	public bool IsAlive
+	{
+        get { return _currentHealth > 0; }
+	}
 
     public virtual void Start()
     {
-        _gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        _currentHealth = _initialHealth;
     }
 
-    protected void NotifyGameEvent(GameEvent gameEvent)
+    public virtual void ApplyDamage(float damage)
     {
-        if (_gameManager != null)
-        {
-            _gameManager.onNotify(gameEvent);
-        }
-        else
-        {
-            Debug.LogWarning("No GameManager component found");
-        }
+        _currentHealth -= damage;
+
+        OnHealthChanged(_currentHealth);
+    }
+
+    public void KnockBack(Vector3 force)
+    {
+        rigidbody2D.AddForce(force, ForceMode2D.Impulse);
+    }
+
+    protected virtual void OnHealthChanged(float health)
+    {
+
     }
 }

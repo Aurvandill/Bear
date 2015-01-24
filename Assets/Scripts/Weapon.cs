@@ -13,7 +13,7 @@ public abstract class Weapon : MonoBehaviour
 
     private float _currentWaitTime;
 
-    protected List<Entity> EntitiesInAttackRange = new List<Entity>();
+    protected List<Creature> EntitiesInAttackRange = new List<Creature>();
 
     public abstract void Attack();
 
