@@ -3,7 +3,7 @@ using System.Collections;
 
 public abstract class Entity : MonoBehaviour
 {
-    private GameManager _gameManager;
+    protected GameManager _gameManager;
 
     public virtual void Start()
     {
