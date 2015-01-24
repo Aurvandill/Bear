@@ -47,7 +47,7 @@ public class Melee : Enemy
                 transform.localScale = new Vector3(direction1D, transform.localScale.y, transform.localScale.z);
             }
 
-            _animator.SetFloat("Speed", 1);
+            _animator.SetFloat("Speed", Mathf.Abs(direction1D));
         }
         else
         {
@@ -57,7 +57,8 @@ public class Melee : Enemy
 
     private void PrepareAttack()
     {
-        if (_currentWeapon.RequestIsReady())
+        if (_currentWeapon.RequestIsReady() &&
+            _currentWeapon.IsTargetInRange())
         {
             _animator.SetTrigger("Attack");
             stopped = true;
@@ -66,11 +67,7 @@ public class Melee : Enemy
 
     private void ExecuteAttack()
     {
-        if (_currentWeapon.IsTargetInRange())
-        {
-            _currentWeapon.Attack();          
-        }
-
+        _currentWeapon.Attack();
         stopped = false;
     }
 }
