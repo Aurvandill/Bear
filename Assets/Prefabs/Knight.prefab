@@ -118,7 +118,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.32773876, y: -1.55304265, z: 0}
+  m_LocalPosition: {x: -14.1400003, y: -2.18000007, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 401482}
@@ -260,6 +260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _initialHealth: 20
   _moveSpeed: .100000001
+  _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 11401486}
   _aggressionRange: {fileID: 101482}

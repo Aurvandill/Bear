@@ -7,6 +7,8 @@ public abstract class Creature : Entity
 	private float _initialHealth;
     [SerializeField]
     protected float _moveSpeed;
+    [SerializeField]
+    protected GameObject _dieParticle;
 
     [SerializeField]
     protected Wearable _currentWearable;
@@ -30,6 +32,11 @@ public abstract class Creature : Entity
         _currentHealth -= damage;
 
         OnHealthChanged(_currentHealth);
+
+        if (!IsAlive)
+        {
+            OnEntityDied();
+        }
     }
 
     public void KnockBack(Vector3 force)
@@ -40,5 +47,11 @@ public abstract class Creature : Entity
     protected virtual void OnHealthChanged(float health)
     {
 
+    }
+
+    protected virtual void OnEntityDied()
+    {
+        Instantiate(_dieParticle, transform.position, Quaternion.EulerRotation(-90, 0, 0));
+        Destroy(gameObject);
     }
 }
