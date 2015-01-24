@@ -35,7 +35,6 @@ public abstract class Enemy : Entity
         if (args.SenderId.Equals(_attackRange.name))
         {
         }
-        
     }
     public void OnEntityCollisionExit(EntityCollisionEventArgs args)
     {

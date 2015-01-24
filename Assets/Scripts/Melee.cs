@@ -16,10 +16,7 @@ public class Melee : Enemy
             targetPos = ReturnPosition;
         }
 
-
-
         var direction = (targetPos - transform.position).normalized;
-
         rigidbody2D.velocity = direction * _moveSpeed;
     }
 }

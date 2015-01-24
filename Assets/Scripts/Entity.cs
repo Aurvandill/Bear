@@ -13,6 +13,8 @@ public abstract class Entity : MonoBehaviour
     [SerializeField]
     protected Wearable _currentWearable;
     [SerializeField]
+    protected Weapon _currentWeapon;
+    [SerializeField]
     protected GameObject _attackRange;
 
 	private float _currentHealth;
