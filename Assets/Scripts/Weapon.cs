@@ -8,10 +8,27 @@ public abstract class Weapon : MonoBehaviour
     protected GameObject _impactRange;
     [SerializeField]
     protected float _baseDamage;
+    [SerializeField]
+    protected float _cooldown;
 
-    public List<Entity> EntitiesInAttackRange = new List<Entity>();
+    private float _currentWaitTime;
+
+    protected List<Entity> EntitiesInAttackRange = new List<Entity>();
 
     public abstract void Attack();
+
+    protected bool CanAttack()
+    {
+        _currentWaitTime += Time.deltaTime;
+
+        if (_currentWaitTime > _cooldown)
+        {
+            _currentWaitTime = 0;
+            return true;
+        }
+
+        return false;
+    }
 
     public void OnEntityCollisionEnter(EntityCollisionEventArgs args)
     {

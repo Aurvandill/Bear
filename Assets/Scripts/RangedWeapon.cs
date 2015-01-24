@@ -10,8 +10,11 @@ public class RangedWeapon : Weapon
 
     public override void Attack()
     {
-        var projectile = Instantiate(_projectilePrefab, transform.position, new Quaternion()) as GameObject;
-        projectile.GetComponent<Projectile>().Damage = _baseDamage;
-        projectile.rigidbody2D.AddForce(Vector2.right * transform.parent.localScale.x * _projectileSpeed, ForceMode2D.Force); 
+        if (CanAttack())
+        {
+            var projectile = Instantiate(_projectilePrefab, transform.position, new Quaternion()) as GameObject;
+            projectile.GetComponent<Projectile>().Damage = _baseDamage;
+            projectile.rigidbody2D.AddForce(Vector2.right * transform.parent.localScale.x * _projectileSpeed, ForceMode2D.Force);
+        }
     }
 }

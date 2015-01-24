@@ -12,8 +12,10 @@ public class Player : Entity
 
     Animator _animator;
 
-    public void Start()
+    public override void Start()
     {
+        base.Start();
+
         _animator = GetComponent<Animator>();
     }
 
@@ -53,7 +55,7 @@ public class Player : Entity
     {
         if (Input.GetAxisRaw("Attack") == 1)
         {
-            //_currentWeapon.Attack();
+            _currentWeapon.Attack();
         }
     }
 

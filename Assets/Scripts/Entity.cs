@@ -20,6 +20,11 @@ public abstract class Entity : MonoBehaviour
         get { return _currentHealth > 0; }
 	}
 
+    public virtual void Start()
+    {
+        _currentHealth = _initialHealth;
+    }
+
     public virtual void ApplyDamage(float damage)
     {
         _currentHealth -= damage;
