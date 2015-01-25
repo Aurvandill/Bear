@@ -28,12 +28,8 @@ public class Player : Creature
     public void Update()
     {
         PrepareAttack();
-        Interact();
-    }
-
-    public void FixedUpdate()
-    {
         Move();
+        Interact();
     }
 
     private void Move()
@@ -48,7 +44,7 @@ public class Player : Creature
             var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
 
 
-            transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
+            transform.position = new Vector2(transform.position.x, transform.position.y) + (new Vector2(moveH, moveV) * Time.deltaTime);
 
             if (direction != 0)
             {
@@ -98,6 +94,7 @@ public class Player : Creature
         {
             _slider.value = health;
         }
+        GetComponent<PlaySound>().Play(2);
     }
 
     private void ExecuteAttack()

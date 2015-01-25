@@ -11,6 +11,6 @@ public class PauseController : MonoBehaviour {
 
     public void Exit()
     {
-        Application.Quit();
+        Application.LoadLevel(0);
     }
 }

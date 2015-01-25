@@ -11,7 +11,7 @@ GameObject:
   - 212: {fileID: 21284476}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ GameObject:
   - 212: {fileID: 21284478}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ GameObject:
   - 212: {fileID: 21284480}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59,7 +59,7 @@ GameObject:
   - 212: {fileID: 21284482}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

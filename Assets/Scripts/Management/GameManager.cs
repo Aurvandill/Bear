@@ -52,6 +52,10 @@ public class GameManager : MonoBehaviour {
                     new QuestCondition(GameEvent.wa_Weapon_Equipped, 0)
                 })
             ),
+            new StoryLine("Darling Teddybear").AddChildren(
+                new QuestNode()
+                    .AddConditions(new QuestCondition(GameEvent.cr_BearGirl_TalkTo, 1))
+            ),
             new StoryLine("Archbear of arcane magic").AddChildren(
                 new QuestNode()
                     .AddConditions(new List<QuestCondition>() {
