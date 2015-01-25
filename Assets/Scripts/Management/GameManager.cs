@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour {
                 new QuestNode()
                     .AddConditions(new QuestCondition(GameEvent.cr_BearGirl_TalkTo, 1))
             ),
-            new StoryLine("Archbear of arcane magic").AddChildren(
+            /*new StoryLine("Archbear of arcane magic").AddChildren(
                 new QuestNode()
                     .AddConditions(new List<QuestCondition>() {
                         new QuestCondition(GameEvent.pl_GraveYard_Entered, 1),
@@ -69,22 +69,12 @@ public class GameManager : MonoBehaviour {
                                 new QuestCondition(GameEvent.ob_MagicBook_Obtained, 1)
                             })
                     )
-            ),
+            ),*/
             new StoryLine("My preciousssss...").AddChildren(
                 new QuestNode()
-                    .AddConditions(new List<QuestCondition>() {
-                        new QuestCondition(GameEvent.pl_Cave_Entered, 1),
-                        new QuestCondition(GameEvent.wa_Sword_Equipped, 1)
-                    })
-                    .AddChildren(
-                        new QuestNode()
-                            .AddConditions(new List<QuestCondition>() {
-                                new QuestCondition(GameEvent.cr_Gollum_Killed, 1),
-                                new QuestCondition(GameEvent.ob_TheOneRing_Obtained, 1)
-                            })
-                    )
+                    .AddConditions(new QuestCondition(GameEvent.ob_TheOneRing_Obtained, 1))
             ),
-            new StoryLine("Captain Bluebear").AddChildren(
+            /*new StoryLine("Captain Bluebear").AddChildren(
                 new QuestNode().AddConditions(new List<QuestCondition>() {
                     new QuestCondition(GameEvent.ob_Alcohol_Obtained, 1)
                     }).AddChildren(new QuestNode().AddConditions(
@@ -96,12 +86,12 @@ public class GameManager : MonoBehaviour {
                     new QuestCondition(GameEvent.ob_Alcohol_Obtained, 0),
                     new QuestCondition(GameEvent.cr_Captain_Killed, 1)
                 })
-            ),
+            ),*/
             new StoryLine("Al Ca-paw-ne").AddChildren(
                 new QuestNode().AddConditions(new List<QuestCondition>() {
-                    new QuestCondition(GameEvent.cr_BanditBoss_Killed, 0)
+                    new QuestCondition(GameEvent.cr_BanditBoss_Killed, 1)
                 })
-            ),
+            )/*,
             new StoryLine("Found the right castle").AddChildren(
                 new QuestNode()
                     .AddConditions(new List<QuestCondition>() {
@@ -115,7 +105,7 @@ public class GameManager : MonoBehaviour {
                                 new QuestCondition(GameEvent.cr_Wizard_Killed, 1)
                             })
                     )
-            )
+            )*/
         });
     }
     private void UpdateGameState(GameEvent gameEvent, bool undo)
