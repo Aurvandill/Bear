@@ -5809,7 +5809,7 @@ GameObject:
   - 114: {fileID: 280902386}
   m_Layer: 11
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5887,7 +5887,7 @@ Animator:
   m_GameObject: {fileID: 280902379}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cc4f7251022446641bfd3d689be3e258, type: 2}
+  m_Controller: {fileID: 9100000, guid: dd5f792557a3cc8468ca94c4d46d3cf1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5914,7 +5914,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3331a88a50a8b124b91632449ad9ea5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &280902386
 MonoBehaviour:
@@ -5927,7 +5927,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124b363ad10be684e9eb251aab4c2f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sources: []
+  Sources:
+  - {fileID: 280902387}
 --- !u!82 &280902387
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11488,7 +11489,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 864546184}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 1243349160}
   _disengageRange: {fileID: 219130019}
 --- !u!95 &570389834
@@ -14152,6 +14153,15 @@ Prefab:
       propertyPath: _moveSpeed
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 21282328, guid: 8e5e0633d295b274a995ef1d90a0fc25, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3331a88a50a8b124b91632449ad9ea5d,
+        type: 3}
+    - target: {fileID: 9582330, guid: 8e5e0633d295b274a995ef1d90a0fc25, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dd5f792557a3cc8468ca94c4d46d3cf1, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8e5e0633d295b274a995ef1d90a0fc25, type: 2}
   m_RootGameObject: {fileID: 280902379}
@@ -17289,7 +17299,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 2130413899}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 658306476}
   _disengageRange: {fileID: 294949733}
 --- !u!95 &807518970
@@ -20187,7 +20197,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 2037459155}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 957742302}
   _disengageRange: {fileID: 38619257}
 --- !u!95 &919555076
@@ -21369,7 +21379,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 1708725296}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 2065145500}
   _disengageRange: {fileID: 1736435556}
 --- !u!95 &975385286
@@ -30149,7 +30159,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 824009259}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 1568262873}
   _disengageRange: {fileID: 437725330}
 --- !u!95 &1425675149
@@ -30396,7 +30406,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 440629913}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 1108731880}
   _disengageRange: {fileID: 1985094846}
 --- !u!95 &1430506653
@@ -36577,7 +36587,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 1849959404}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 1365797307}
   _disengageRange: {fileID: 943130165}
 --- !u!95 &1711246481
@@ -37363,7 +37373,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 532162586}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 2003972573}
   _disengageRange: {fileID: 30094431}
 --- !u!95 &1733365176
@@ -45766,7 +45776,7 @@ MonoBehaviour:
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 1216328656}
-  Loot: {fileID: 0}
+  Loot: {fileID: 116944, guid: dbcaf3b4d84e3a544b662cbeb7e95de5, type: 2}
   _aggressionRange: {fileID: 1323980473}
   _disengageRange: {fileID: 1497472760}
 --- !u!95 &2118510344
