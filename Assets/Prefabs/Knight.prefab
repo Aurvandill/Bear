@@ -279,7 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _impactRange: {fileID: 105216}
   _baseDamage: 10
-  _cooldown: 0
+  _cooldown: 2
   IsReady: 1
   _knockBackImpact: 4
 --- !u!114 &11405216
