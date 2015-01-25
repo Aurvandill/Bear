@@ -24,10 +24,6 @@ public class Player : Creature
     public void Update()
     {
         PrepareAttack();
-    }
-
-    public void FixedUpdate()
-    {
         Move();
     }
 
@@ -43,7 +39,7 @@ public class Player : Creature
             var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
 
 
-            transform.position = new Vector2(transform.position.x, transform.position.y) + new Vector2(moveH, moveV);
+            transform.position = new Vector2(transform.position.x, transform.position.y) + (new Vector2(moveH, moveV) * Time.deltaTime);
 
             if (direction != 0)
             {
