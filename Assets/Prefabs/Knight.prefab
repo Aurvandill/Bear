@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initialHealth: 20
-  _moveSpeed: .100000001
+  _moveSpeed: 5
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 11405214}

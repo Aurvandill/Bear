@@ -21,6 +21,6 @@ public class GameOverController : MonoBehaviour {
     public void MainMenu()
     {
         Destroy(GameObject.Find("GameEndingInfo(Clone)"));
-        Application.LoadLevel("MainMenu");
+        Application.LoadLevel(0);
     }
 }

@@ -34,7 +34,7 @@ public class Melee : Enemy
             }
 
             var direction = (targetPos - transform.position).normalized;
-            transform.position = transform.position + direction * _moveSpeed;
+            transform.position = transform.position + direction * _moveSpeed * Time.deltaTime;
 
             var direction1D = (direction.x == 0) ? 0 : ((direction.x > 0) ? 1 : -1);
 

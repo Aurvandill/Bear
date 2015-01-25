@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _initialHealth: 10000
-  _moveSpeed: .100000001
+  _moveSpeed: 5
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
   _currentWeapon: {fileID: 11484874}
@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pickupKeyHint: {fileID: 0}
   _impactRange: {fileID: 184876}
   _baseDamage: 10
   _cooldown: .5

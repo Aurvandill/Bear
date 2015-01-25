@@ -5,7 +5,7 @@ public class MenuController : MonoBehaviour {
 
     public void Play()
     {
-        Application.LoadLevel("Forest");
+        Application.LoadLevel(1);
     }
 
     public void Exit()
