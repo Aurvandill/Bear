@@ -26,6 +26,9 @@ public class QuestCondition : System.Object
     public bool IsMet(Dictionary<GameEvent, int> list)
     {
         bool isMet = false;
+
+        if (!list.ContainsKey(_event)) { return isMet; }
+
         switch (_operator)
         {
             case ComparisonOperator.Equals:
