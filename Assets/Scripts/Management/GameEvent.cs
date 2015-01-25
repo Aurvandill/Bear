@@ -17,6 +17,7 @@ public enum GameEvent : int
     cr_Princess_TalkedTo = 110,
     cr_Spider_Killed = 111,
     cr_Wizard_Killed = 112,
+    cr_BearGirl_TalkTo = 113,
 
     //Weapons
     wa_Weapon_Changed = 301,
