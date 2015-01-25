@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 3331a88a50a8b124b91632449ad9ea5d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BanditBoss_0
+    21300002: BanditBoss_1
+    21300004: BanditBoss_2
+    21300006: BanditBoss_3
+    21300008: BanditBoss_4
+    21300010: BanditBoss_5
+    21300012: BanditBoss_6
+    21300014: BanditBoss_7
+    21300016: BanditBoss_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 256
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BanditBoss_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2259
+        width: 334
+        height: 796
+      alignment: 9
+      pivot: {x: .722034276, y: .44752419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2264
+        width: 376
+        height: 789
+      alignment: 9
+      pivot: {x: .650523722, y: .418414325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2257
+        width: 382
+        height: 792
+      alignment: 9
+      pivot: {x: .726058543, y: .428413481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_3
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 2275
+        width: 452
+        height: 771
+      alignment: 9
+      pivot: {x: .56458652, y: .406432718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_4
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 2288
+        width: 462
+        height: 746
+      alignment: 9
+      pivot: {x: .580513299, y: .425829679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_5
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 2233
+        width: 262
+        height: 860
+      alignment: 9
+      pivot: {x: .5, y: .362241656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_6
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 2262
+        width: 515
+        height: 736
+      alignment: 9
+      pivot: {x: .735975444, y: .433075279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_7
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 2264
+        width: 685
+        height: 829
+      alignment: 9
+      pivot: {x: .160446718, y: .383606166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BanditBoss_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1447
+        width: 719
+        height: 690
+      alignment: 9
+      pivot: {x: .244425803, y: .466364861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
