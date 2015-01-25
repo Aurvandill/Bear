@@ -36,7 +36,7 @@ GameObject:
   - 114: {fileID: 11484874}
   - 212: {fileID: 21284876}
   - 61: {fileID: 6108910}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf36e35bc89206b48bcb043478505b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialHealth: 10000
+  _initialHealth: 100
   _moveSpeed: 5
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}

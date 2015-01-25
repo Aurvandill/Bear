@@ -28,8 +28,13 @@ public class Player : Creature
     public void Update()
     {
         PrepareAttack();
-        Move();
+        
         Interact();
+    }
+
+    void FixedUpdate()
+    {
+        Move();
     }
 
     private void Move()
@@ -44,7 +49,7 @@ public class Player : Creature
             var direction = (moveH == 0) ? 0 : ((moveH > 0) ? 1 : -1);
 
 
-            transform.position = new Vector2(transform.position.x, transform.position.y) + (new Vector2(moveH, moveV) * Time.deltaTime);
+            transform.position = new Vector2(transform.position.x, transform.position.y) + (new Vector2(moveH, moveV) * Time.fixedDeltaTime);
 
             if (direction != 0)
             {
