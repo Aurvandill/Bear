@@ -4,6 +4,9 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Graveyard_0
     21300002: Graveyard_1
+    21300004: Graveyard_2
+    21300006: Graveyard_3
+    21300008: Graveyard_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,6 +65,36 @@ TextureImporter:
         y: 2905
         width: 600
         height: 724
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Graveyard_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2617
+        width: 117
+        height: 1141
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Graveyard_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2627
+        width: 788
+        height: 746
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Graveyard_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3183
+        width: 111
+        height: 578
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
