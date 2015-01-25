@@ -116,16 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39f9dabdf773754495206f5fdae5722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  _impactRange: {fileID: 116942}
-  _baseDamage: 10
-  _cooldown: 2
-  IsReady: 1
-  _knockBackImpact: 4
-=======
   PickupEvent: 305
   _pickupKeyHint: {fileID: 191200, guid: b5f845e5a64d9044aab71ce09dcc7203, type: 2}
->>>>>>> origin/master
 --- !u!212 &21216430
 SpriteRenderer:
   m_ObjectHideFlags: 1
