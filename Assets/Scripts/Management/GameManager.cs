@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour {
     {
         UpdateGameState(gameEvent, undo);
     }
+    public int GetState(GameEvent gameEvent)
+    {
+        if (!_gameStates.ContainsKey(gameEvent)) { return -1; }
+        else { return _gameStates[gameEvent]; }
+    }
 
 
     private void InitStorylines()
