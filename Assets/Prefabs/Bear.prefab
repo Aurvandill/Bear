@@ -133,7 +133,7 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Radius: .300000012
-  m_Center: {x: 0, y: .699999988}
+  m_Center: {x: 0, y: .449999988}
 --- !u!58 &5884876
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf36e35bc89206b48bcb043478505b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialHealth: 10000
+  _initialHealth: 100
   _moveSpeed: .100000001
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pickupKeyHint: {fileID: 0}
   _impactRange: {fileID: 184876}
   _baseDamage: 10
   _cooldown: .5
