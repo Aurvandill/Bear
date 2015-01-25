@@ -15,16 +15,12 @@ public class Melee : Enemy
     private void Update()
     {
         PrepareAttack();
-    }
-
-    void FixedUpdate()
-    {
         Move();
     }
 
     private void Move()
     {
-        if (!_currentWeapon.IsTargetInRange() && !stopped)
+        if (!_currentWeapon.IsTargetInRange<Player>() && !stopped)
         {
             Vector3 targetPos = transform.position;
 
@@ -58,7 +54,7 @@ public class Melee : Enemy
     private void PrepareAttack()
     {
         if (_currentWeapon.RequestIsReady() &&
-            _currentWeapon.IsTargetInRange())
+            _currentWeapon.IsTargetInRange<Player>())
         {
             _animator.SetTrigger("Attack");
             stopped = true;

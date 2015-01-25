@@ -17,7 +17,7 @@ public class Ranged : Enemy
 
     private void Move()
     {
-        if (!_currentWeapon.IsTargetInRange())
+        if (!_currentWeapon.IsTargetInRange<Player>())
         {
             var direction = new Vector3();
 
@@ -55,7 +55,7 @@ public class Ranged : Enemy
 
     private void Attack()
     {
-        if (_currentWeapon.IsTargetInRange() && !_isRunningAway)
+        if (_currentWeapon.IsTargetInRange<Player>() && !_isRunningAway)
         {
             _currentWeapon.Attack();
         }

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class MeleeWeapon : Weapon
 {
@@ -10,12 +11,17 @@ public class MeleeWeapon : Weapon
 
     public override void Attack()
     {
+        base.Attack();
+
         foreach (var entity in EntitiesInAttackRange)
         {
-            entity.ApplyDamage(_baseDamage);
-            entity.KnockBack(Vector2.right * transform.parent.localScale.x * _knockBackImpact);
-        }
+            var weaponHolder = transform.parent.gameObject.GetComponent<Creature>();
 
-        base.Attack();
+            if (entity.GetType() != weaponHolder.GetType())
+            {
+                entity.ApplyDamage(_baseDamage);
+                entity.KnockBack(Vector2.right * transform.parent.localScale.x * _knockBackImpact);
+            }
+        }
     }
 }

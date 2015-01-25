@@ -18,7 +18,7 @@ public abstract class Weapon : Pickup
 
     public virtual void Attack()
     {
-        EntitiesInAttackRange.RemoveAll(e => !e.IsAlive);
+        RemoveDeadEntites();
     }
 
     public bool RequestIsReady()
@@ -64,8 +64,14 @@ public abstract class Weapon : Pickup
         }
     }
 
-    public bool IsTargetInRange()
+    public bool IsTargetInRange<T>()
     {
-        return EntitiesInAttackRange.Count > 0;
+        RemoveDeadEntites();
+        return EntitiesInAttackRange.OfType<T>().Count() > 0;
+    }
+
+    private void RemoveDeadEntites()
+    {
+        EntitiesInAttackRange.RemoveAll(e => !e.IsAlive);
     }
 }

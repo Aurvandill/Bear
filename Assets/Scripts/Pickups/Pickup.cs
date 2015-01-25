@@ -12,14 +12,13 @@ public abstract class Pickup : MonoBehaviour
 
     public void Drop(Vector3 location)
     {
-        _spriteRenderer.enabled = true;
-        _spriteRenderer.transform.position = location;
-        _spriteRenderer.transform.parent = null;
+        var newPickup = Instantiate(gameObject, location, Quaternion.identity) as GameObject;
+        newPickup.GetComponent<SpriteRenderer>().enabled = true;
     }
 
     public void PickUp(Transform newOwner)
     {
         _spriteRenderer.enabled = false;
-        _spriteRenderer.transform.parent = transform;
+        transform.parent = transform;
     }
 }
