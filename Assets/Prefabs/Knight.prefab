@@ -34,7 +34,7 @@ GameObject:
   - 114: {fileID: 11460896}
   m_Layer: 11
   m_Name: Knight
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ GameObject:
   - 212: {fileID: 21205216}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.4166412, y: -2.20405388, z: 0}
+  m_LocalPosition: {x: -17.6765747, y: -1.26321733, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 401482}
@@ -337,6 +337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pickupKeyHint: {fileID: 191200, guid: b5f845e5a64d9044aab71ce09dcc7203, type: 2}
   _impactRange: {fileID: 105216}
   _baseDamage: 10
   _cooldown: 2
