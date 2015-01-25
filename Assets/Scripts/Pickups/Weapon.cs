@@ -44,10 +44,10 @@ public abstract class Weapon : Pickup
     {
         if (args.SenderId.Equals(_impactRange.name))
         {
-            var entity = args.Entity;
-            if (entity != null)
+            var creature = args.Entity as Creature;
+            if (creature != null)
             {
-                EntitiesInAttackRange.Add(entity);
+                EntitiesInAttackRange.Add(creature);
             }
         }
     }
@@ -56,10 +56,10 @@ public abstract class Weapon : Pickup
     {
         if (args.SenderId.Equals(_impactRange.name))
         {
-            var entity = args.Entity;
-            if (entity != null)
+            var creature = args.Entity as Creature;
+            if (creature != null)
             {
-                EntitiesInAttackRange.Remove(entity);
+                EntitiesInAttackRange.Remove(creature);
             }
         }
     }

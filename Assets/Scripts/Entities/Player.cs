@@ -2,17 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System.Linq;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : Creature
 {
     [SerializeField]
     private Slider _slider;
+    [SerializeField]
+    private float _pickupRange;
+    [SerializeField]
+    private LayerMask _pickupLayerMask;
 
-
-    Animator _animator;
-    float _speed = 1f;
-    bool _stopped = false;
+    private Animator _animator;
+    private float _speed = 1f;
+    private bool _stopped = false;
 
     public override void Start()
     {
@@ -24,6 +28,7 @@ public class Player : Creature
     public void Update()
     {
         PrepareAttack();
+        Interact();
     }
 
     public void FixedUpdate()
@@ -57,6 +62,23 @@ public class Player : Creature
             }
 
             _animator.SetBool("Run", _speed > 1f);
+        }
+    }
+
+    private void Interact()
+    {
+        if (Input.GetAxisRaw("Interact") == 1)
+        {
+            var pickups = Physics2D.OverlapCircleAll(transform.position, _pickupRange, _pickupLayerMask);
+
+            foreach (var collider in pickups)
+            {
+                var pickup = collider.GetComponent<Pickup>();
+                if (pickup != null)
+                {
+                    pickup.PickUp(transform);
+                }
+            }
         }
     }
 

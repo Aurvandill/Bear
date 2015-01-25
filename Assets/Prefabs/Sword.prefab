@@ -27,7 +27,8 @@ GameObject:
   - 4: {fileID: 416944}
   - 114: {fileID: 11416944}
   - 212: {fileID: 21216430}
-  m_Layer: 0
+  - 61: {fileID: 6131910}
+  m_Layer: 12
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,6 +71,17 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_Radius: 1
   m_Center: {x: .569999993, y: 0}
+--- !u!61 &6131910
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116944}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 2.55999994, y: 2.55999994}
+  m_Center: {x: 0, y: 0}
 --- !u!114 &11416942
 MonoBehaviour:
   m_ObjectHideFlags: 1

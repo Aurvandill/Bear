@@ -30,7 +30,8 @@ GameObject:
   - 4: {fileID: 482324}
   - 114: {fileID: 11482324}
   - 212: {fileID: 21282330}
-  m_Layer: 0
+  - 61: {fileID: 6139342}
+  m_Layer: 12
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,6 +201,17 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_Radius: 30
   m_Center: {x: 0, y: 0}
+--- !u!61 &6139342
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 182324}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 2.55999994, y: 2.55999994}
+  m_Center: {x: 0, y: 0}
 --- !u!61 &6182330
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -255,7 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _keyHint: {fileID: 0}
+  _pickupKeyHint: {fileID: 0}
   _impactRange: {fileID: 182326}
   _baseDamage: 20
   _cooldown: 2
