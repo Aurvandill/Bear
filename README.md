@@ -1,2 +1,0 @@
-# Bear
-Bear Adventures
