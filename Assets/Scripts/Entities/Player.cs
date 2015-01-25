@@ -91,7 +91,8 @@ public class Player : Creature
     {
         var animator = GetComponent<Animator>();
 
-        if (_gameManager.GetState(gameEvent) == 1)
+        if (gameEvent == GameEvent.wa_Sword_Equipped &&
+            _gameManager.GetState(gameEvent) == 1)
         {
             animator.runtimeAnimatorController = _knightBearAnimController;
         }
