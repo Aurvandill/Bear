@@ -30,6 +30,8 @@ GameObject:
   - 114: {fileID: 11401484}
   - 50: {fileID: 5001488}
   - 61: {fileID: 6101488}
+  - 82: {fileID: 8260896}
+  - 114: {fileID: 11460896}
   m_Layer: 11
   m_Name: Knight
   m_TagString: Untagged
@@ -107,7 +109,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.7099991, y: -.00999999978, z: 0}
+  m_LocalPosition: {x: -17.4166412, y: -2.20405388, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 401482}
@@ -211,6 +213,64 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1.1484375, y: 2.27148438}
   m_Center: {x: 0, y: -.141489595}
+--- !u!82 &8260896
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101484}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 5b939f45a60225d44811bc20c652d28a, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9501488
 Animator:
   serializedVersion: 3
@@ -293,6 +353,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11460896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124b363ad10be684e9eb251aab4c2f24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sources:
+  - {fileID: 8260896}
 --- !u!212 &21201488
 SpriteRenderer:
   m_ObjectHideFlags: 1

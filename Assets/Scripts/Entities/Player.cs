@@ -76,6 +76,7 @@ public class Player : Creature
         {
             _slider.value = health;
         }
+        GetComponent<PlaySound>().Play(2);
     }
 
     private void ExecuteAttack()
