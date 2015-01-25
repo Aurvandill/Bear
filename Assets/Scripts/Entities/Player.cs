@@ -13,6 +13,8 @@ public class Player : Creature
     private float _pickupRange;
     [SerializeField]
     private LayerMask _pickupLayerMask;
+    [SerializeField]
+    private RuntimeAnimatorController _knightBearAnimController;
 
     private Animator _animator;
     private float _speed = 1f;
@@ -78,8 +80,20 @@ public class Player : Creature
                 if (pickup != null)
                 {
                     pickup.PickUp();
+
+                    UpdateState(pickup.PickupEvent);
                 }
             }
+        }
+    }
+
+    private void UpdateState(GameEvent gameEvent)
+    {
+        var animator = GetComponent<Animator>();
+
+        if (_gameManager.GetState(gameEvent) == 1)
+        {
+            animator.runtimeAnimatorController = _knightBearAnimController;
         }
     }
 

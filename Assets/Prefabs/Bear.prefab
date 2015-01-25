@@ -381,7 +381,9 @@ MonoBehaviour:
   _pickupRange: .5
   _pickupLayerMask:
     serializedVersion: 2
-    m_Bits: 8192
+    m_Bits: 4096
+  _knightBearAnimController: {fileID: 9100000, guid: 9365b801a9a951842b2bb19e6afe698e,
+    type: 2}
 --- !u!114 &11484874
 MonoBehaviour:
   m_ObjectHideFlags: 1
