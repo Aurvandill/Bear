@@ -51,6 +51,10 @@ public class GameManager : MonoBehaviour {
     private void InitStorylines()
     {
         _storyLines.AddRange(new List<StoryLine>() {
+            new StoryLine("Lose Game").AddChildren(
+                new QuestNode()
+                    .AddConditions(new QuestCondition(GameEvent.cr_Player_Died, 1))
+            ),
             new StoryLine("Hibernation").AddChildren(
                 new QuestNode().AddConditions(new List<QuestCondition>() {
                     new QuestCondition(GameEvent.pl_Cave_Entered, 1),

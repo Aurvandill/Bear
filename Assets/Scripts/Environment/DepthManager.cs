@@ -16,6 +16,8 @@ public class DepthManager : MonoBehaviour {
         GameObject[] gameObjs = GameObject.FindGameObjectsWithTag("Depth");
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
+        if (player == null) { return; }
+
         SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
         if (sr == null)
             return;

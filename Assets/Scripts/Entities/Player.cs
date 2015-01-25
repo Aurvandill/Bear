@@ -121,4 +121,10 @@ public class Player : Creature
         _currentWeapon.Attack();
         _stopped = false;
     }
+
+    protected override void OnEntityDied()
+    {
+        _gameManager.onNotify(GameEvent.cr_Player_Died);
+        base.OnEntityDied();
+    }
 }
