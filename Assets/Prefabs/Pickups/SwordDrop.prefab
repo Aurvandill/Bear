@@ -29,7 +29,7 @@ GameObject:
   - 212: {fileID: 21216430}
   - 61: {fileID: 6131910}
   m_Layer: 12
-  m_Name: Sword
+  m_Name: SwordDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pickupKeyHint: {fileID: 191200, guid: b5f845e5a64d9044aab71ce09dcc7203, type: 2}
   _impactRange: {fileID: 116942}
   _baseDamage: 10
   _cooldown: 2
