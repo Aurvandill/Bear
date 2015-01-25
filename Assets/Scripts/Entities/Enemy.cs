@@ -5,6 +5,8 @@ public abstract class Enemy : Creature
 {
     protected Creature CurrentTarget { get; set; }
     protected Vector3 ReturnPosition { get; private set; }
+    [SerializeField]
+    private GameObject Loot;
 
     [SerializeField]
     protected GameObject _aggressionRange;
@@ -48,7 +50,9 @@ public abstract class Enemy : Creature
 
     protected override void OnEntityDied()
     {
-        _currentWeapon.Drop(transform.position);
+        if (Loot != null) {
+            Instantiate(Loot, transform.position, Quaternion.identity);
+        }
 
         base.OnEntityDied();
     }

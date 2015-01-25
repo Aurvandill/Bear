@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-public abstract class Weapon : Pickup
+public class Weapon : Entity
 {
     [SerializeField]
     protected GameObject _impactRange;

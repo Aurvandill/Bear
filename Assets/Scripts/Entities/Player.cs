@@ -77,7 +77,7 @@ public class Player : Creature
                 var pickup = collider.GetComponent<Pickup>();
                 if (pickup != null)
                 {
-                    pickup.PickUp(transform);
+                    pickup.PickUp();
                 }
             }
         }

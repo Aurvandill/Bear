@@ -20,6 +20,8 @@ public class Melee : Enemy
 
     private void Move()
     {
+        if (_currentWeapon == null) { return; }
+
         if (!_currentWeapon.IsTargetInRange<Player>() && !stopped)
         {
             Vector3 targetPos = transform.position;
@@ -53,6 +55,8 @@ public class Melee : Enemy
 
     private void PrepareAttack()
     {
+        if (_currentWeapon == null) { return; }
+
         if (_currentWeapon.RequestIsReady() &&
             _currentWeapon.IsTargetInRange<Player>())
         {
