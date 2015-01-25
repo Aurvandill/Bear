@@ -17,6 +17,9 @@ public class DepthManager : MonoBehaviour {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
+        if (sr == null)
+            return;
+
         int order = (int)((player.transform.position.y - (sr.bounds.size.y / 2))  * 100 * -1);
         
         player.GetComponent<SpriteRenderer>().sortingOrder = order + 30;
