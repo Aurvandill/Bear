@@ -109,7 +109,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &522841
@@ -135,7 +135,7 @@ GameObject:
   - 212: {fileID: 1196291}
   m_Layer: 0
   m_Name: Graveyard_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -185,7 +185,7 @@ GameObject:
   - 212: {fileID: 2000001}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -235,7 +235,7 @@ GameObject:
   - 212: {fileID: 5948058}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -310,7 +310,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &7001075
@@ -336,7 +336,7 @@ GameObject:
   - 212: {fileID: 24066181}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -360,7 +360,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300004, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &24066182
@@ -417,7 +417,7 @@ GameObject:
   - 212: {fileID: 26380680}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,7 +441,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &26380681
@@ -467,7 +467,7 @@ GameObject:
   - 212: {fileID: 26410653}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - 212: {fileID: 39365535}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -568,7 +568,7 @@ GameObject:
   - 212: {fileID: 39902282}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,7 +655,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &50936403
@@ -705,7 +705,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &57532193
@@ -719,7 +719,7 @@ GameObject:
   - 212: {fileID: 57532194}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,7 +769,7 @@ GameObject:
   - 212: {fileID: 61015578}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -819,7 +819,7 @@ GameObject:
   - 212: {fileID: 67461722}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ GameObject:
   - 212: {fileID: 67846297}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,7 +964,7 @@ GameObject:
   - 212: {fileID: 69313373}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - 212: {fileID: 70716596}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,7 +1065,7 @@ GameObject:
   - 212: {fileID: 71586636}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1115,7 +1115,7 @@ GameObject:
   - 212: {fileID: 77805948}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1139,7 +1139,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &77805949
@@ -1193,6 +1193,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 78
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 1578854025}
@@ -1209,7 +1213,7 @@ GameObject:
   - 212: {fileID: 81413519}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1359,7 +1363,7 @@ GameObject:
   - 212: {fileID: 94789683}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,7 +1438,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &95119118
@@ -1522,7 +1526,7 @@ GameObject:
   - 212: {fileID: 104545689}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1572,7 +1576,7 @@ GameObject:
   - 212: {fileID: 107277190}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1659,7 +1663,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &110186601
@@ -1673,7 +1677,7 @@ GameObject:
   - 212: {fileID: 110186602}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1747,7 +1751,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .345588207, g: .319791764, b: .287143141, a: 1}
 --- !u!4 &125979223
@@ -1773,7 +1777,7 @@ GameObject:
   - 212: {fileID: 127194779}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1983,7 +1987,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &138919632
@@ -2009,7 +2013,7 @@ GameObject:
   - 212: {fileID: 140814962}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2084,7 +2088,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &140982054
@@ -2110,7 +2114,7 @@ GameObject:
   - 212: {fileID: 143228003}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2161,7 +2165,7 @@ GameObject:
   - 212: {fileID: 143875699}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2235,7 +2239,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &147947686
@@ -2285,7 +2289,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &169153525
@@ -2311,7 +2315,7 @@ GameObject:
   - 212: {fileID: 170147601}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2361,7 +2365,7 @@ GameObject:
   - 212: {fileID: 172907862}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2447,7 +2451,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &181242521
@@ -2461,7 +2465,7 @@ GameObject:
   - 212: {fileID: 181242522}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2511,7 +2515,7 @@ GameObject:
   - 212: {fileID: 182169927}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2535,7 +2539,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &182169928
@@ -2592,7 +2596,7 @@ GameObject:
   - 212: {fileID: 182917739}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2642,7 +2646,7 @@ GameObject:
   - 212: {fileID: 188455870}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2682,6 +2686,58 @@ SpriteRenderer:
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: .816176474, g: .816176474, b: .816176474, a: 1}
+--- !u!1001 &189732308
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 382394756}
+    m_Modifications:
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 110.370003
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.0999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_RootOrder
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_RootGameObject: {fileID: 671196894}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &197304548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,7 +2749,7 @@ GameObject:
   - 212: {fileID: 197304550}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2744,7 +2800,7 @@ GameObject:
   - 212: {fileID: 202631120}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2794,7 +2850,7 @@ GameObject:
   - 212: {fileID: 203863979}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2845,7 +2901,7 @@ GameObject:
   - 212: {fileID: 208764993}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2965,6 +3021,59 @@ Transform:
   - {fileID: 1152437923}
   m_Father: {fileID: 382394756}
   m_RootOrder: 1
+--- !u!1 &219130019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 219130020}
+  - 58: {fileID: 219130022}
+  - 114: {fileID: 219130021}
+  m_Layer: 8
+  m_Name: DisengageRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &219130020
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 219130019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 570389830}
+  m_RootOrder: 1
+--- !u!114 &219130021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 219130019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &219130022
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 219130019}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 9
+  m_Center: {x: 0, y: 0}
 --- !u!1 &223974588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +3085,7 @@ GameObject:
   - 212: {fileID: 223974590}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3051,7 +3160,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &227055917
@@ -3154,7 +3263,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &248000528
@@ -3204,7 +3313,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &255694912
@@ -3230,7 +3339,7 @@ GameObject:
   - 212: {fileID: 265423703}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3270,6 +3379,67 @@ SpriteRenderer:
   m_SortingOrder: -12
   m_Sprite: {fileID: 21300004, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: .551470578, g: .551470578, b: .551470578, a: 1}
+--- !u!1001 &270254577
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 86.6100006
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -12.8100004
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_RootOrder
+      value: 167
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _currentWeapon
+      value: 
+      objectReference: {fileID: 2130413899}
+    - target: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _cooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824,
+        type: 3}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _initialHealth
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_RootGameObject: {fileID: 807518966}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &272723039
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,7 +3506,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &278422237
@@ -3362,7 +3532,7 @@ GameObject:
   - 212: {fileID: 287971140}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3440,6 +3610,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 82
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 1553581147}
@@ -3456,7 +3630,7 @@ GameObject:
   - 212: {fileID: 294684257}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3495,6 +3669,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 166
+--- !u!1 &294949733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 294949734}
+  - 58: {fileID: 294949736}
+  - 114: {fileID: 294949735}
+  m_Layer: 8
+  m_Name: DisengageRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &294949734
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 294949733}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 807518972}
+  m_RootOrder: 1
+--- !u!114 &294949735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 294949733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &294949736
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 294949733}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 9
+  m_Center: {x: 0, y: 0}
 --- !u!1 &299127636
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,7 +3757,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &299127638
@@ -3580,7 +3807,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &305711367
@@ -3706,7 +3933,7 @@ GameObject:
   - 212: {fileID: 325546386}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3854,7 +4081,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &339642955
@@ -3868,7 +4095,7 @@ GameObject:
   - 212: {fileID: 339642957}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3949,7 +4176,7 @@ GameObject:
   - 212: {fileID: 349543535}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4000,7 +4227,7 @@ GameObject:
   - 212: {fileID: 350348503}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4051,7 +4278,7 @@ GameObject:
   - 212: {fileID: 363425596}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4188,7 +4415,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &382394755
@@ -4299,6 +4526,7 @@ Transform:
   - {fileID: 694274114}
   - {fileID: 1624551727}
   - {fileID: 1553581148}
+  - {fileID: 671196895}
   m_Father: {fileID: 0}
   m_RootOrder: 8
 --- !u!1001 &383283794
@@ -4339,6 +4567,10 @@ Prefab:
     - target: {fileID: 413248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
@@ -4392,7 +4624,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &385929752
@@ -4445,6 +4677,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 90
+--- !u!1 &388791103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184476, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 388791104}
+  - 212: {fileID: 388791105}
+  m_Layer: 0
+  m_Name: FirChunk_1
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &388791104
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484476, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 388791103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.59000015, y: 3.38999891, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 671196895}
+  m_RootOrder: 0
+--- !u!212 &388791105
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21284478, guid: 491e36d4817010746b25ade8fbe759a2,
+    type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 388791103}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300002, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &388905351
 GameObject:
   m_ObjectHideFlags: 0
@@ -4456,7 +4739,7 @@ GameObject:
   - 212: {fileID: 388905352}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4507,7 +4790,7 @@ GameObject:
   - 212: {fileID: 405022824}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4558,7 +4841,7 @@ GameObject:
   - 212: {fileID: 409966210}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4608,7 +4891,7 @@ GameObject:
   - 212: {fileID: 410288316}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4632,7 +4915,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &410288317
@@ -4658,7 +4941,7 @@ GameObject:
   - 212: {fileID: 423726874}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4782,7 +5065,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &432639134
@@ -4908,7 +5191,7 @@ GameObject:
   - 212: {fileID: 461423996}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4987,6 +5270,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 776218322}
@@ -5053,7 +5340,7 @@ GameObject:
   - 212: {fileID: 472255627}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5077,7 +5364,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &472255628
@@ -5103,7 +5390,7 @@ GameObject:
   - 212: {fileID: 479562110}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5177,7 +5464,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &483381298
@@ -5203,7 +5490,7 @@ GameObject:
   - 212: {fileID: 488314812}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5278,7 +5565,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &489466109
@@ -5328,7 +5615,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &489857082
@@ -5354,7 +5641,7 @@ GameObject:
   - 212: {fileID: 490238908}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5405,7 +5692,7 @@ GameObject:
   - 212: {fileID: 490262344}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5480,7 +5767,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &504189711
@@ -5538,6 +5825,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 1555788126}
@@ -5590,7 +5881,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &509085813
@@ -5604,7 +5895,7 @@ GameObject:
   - 212: {fileID: 509085815}
   m_Layer: 0
   m_Name: Rock_Large
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5907,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509085813}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.1700058, y: -4.4800005, z: 0}
+  m_LocalPosition: {x: -84.0999985, y: -7.82000017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 341710137}
@@ -5654,7 +5945,7 @@ GameObject:
   - 212: {fileID: 518071680}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5728,7 +6019,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &519184657
@@ -5743,6 +6034,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1747360033}
   m_RootOrder: 1
+--- !u!1 &524740007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 524740008}
+  - 58: {fileID: 524740010}
+  - 114: {fileID: 524740009}
+  m_Layer: 8
+  m_Name: ImpactRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &524740008
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 524740007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1216328657}
+  m_RootOrder: 0
+--- !u!114 &524740009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 524740007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &524740010
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5805216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 524740007}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 1
+  m_Center: {x: .569999993, y: 0}
 --- !u!1001 &525860992
 Prefab:
   m_ObjectHideFlags: 0
@@ -5781,6 +6125,10 @@ Prefab:
     - target: {fileID: 413248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
       propertyPath: m_RootOrder
       value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
@@ -5848,7 +6196,7 @@ GameObject:
   - 212: {fileID: 532350802}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5898,7 +6246,7 @@ GameObject:
   - 212: {fileID: 541326099}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5983,13 +6331,17 @@ Prefab:
       objectReference: {fileID: 1708725296}
     - target: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
       propertyPath: _cooldown
-      value: 2
+      value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824,
         type: 3}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _initialHealth
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
   m_RootGameObject: {fileID: 975385281}
@@ -6006,7 +6358,7 @@ GameObject:
   - 212: {fileID: 562778166}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6057,7 +6409,7 @@ GameObject:
   - 212: {fileID: 564267439}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6097,6 +6449,127 @@ SpriteRenderer:
   m_SortingOrder: -13
   m_Sprite: {fileID: 21300002, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: .411764681, g: .411764681, b: .411764681, a: 1}
+--- !u!1 &570389829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 570389830}
+  - 212: {fileID: 570389835}
+  - 95: {fileID: 570389834}
+  - 114: {fileID: 570389833}
+  - 50: {fileID: 570389832}
+  - 61: {fileID: 570389831}
+  m_Layer: 11
+  m_Name: Knight
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570389830
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.7299995, y: 4.46999979, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1243349161}
+  - {fileID: 219130020}
+  - {fileID: 864546183}
+  m_Father: {fileID: 0}
+  m_RootOrder: 168
+--- !u!61 &570389831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6101488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1.1484375, y: 2.27148438}
+  m_Center: {x: 0, y: -.141489595}
+--- !u!50 &570389832
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5001488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_Mass: 1
+  m_LinearDrag: 7
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!114 &570389833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95deaf446113ec04b9bd4a4460b4a370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialHealth: 50
+  _moveSpeed: .100000001
+  _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
+  _currentWearable: {fileID: 0}
+  _currentWeapon: {fileID: 864546184}
+  _aggressionRange: {fileID: 1243349160}
+  _disengageRange: {fileID: 219130019}
+--- !u!95 &570389834
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9501488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc4f7251022446641bfd3d689be3e258, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &570389835
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21201488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 570389829}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300004, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &575026945
 GameObject:
   m_ObjectHideFlags: 0
@@ -6144,7 +6617,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .75, g: .722426474, b: .722426474, a: 1}
 --- !u!1 &578798895
@@ -6158,7 +6631,7 @@ GameObject:
   - 212: {fileID: 578798896}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6208,7 +6681,7 @@ GameObject:
   - 212: {fileID: 579020664}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6258,7 +6731,7 @@ GameObject:
   - 212: {fileID: 585879990}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6308,7 +6781,7 @@ GameObject:
   - 212: {fileID: 588057335}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7504,7 +7977,7 @@ GameObject:
   - 212: {fileID: 593240385}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7554,7 +8027,7 @@ GameObject:
   - 212: {fileID: 594343056}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7604,7 +8077,7 @@ GameObject:
   - 212: {fileID: 603126312}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7679,7 +8152,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &604581237
@@ -7732,6 +8205,10 @@ Prefab:
     - target: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
       propertyPath: m_RootOrder
       value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
@@ -7839,7 +8316,7 @@ GameObject:
   - 212: {fileID: 631841542}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7918,6 +8395,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 860011489}
@@ -7958,7 +8439,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .522058845, g: .291738778, b: .291738778, a: .384313732}
 --- !u!4 &644362388
@@ -7984,7 +8465,7 @@ GameObject:
   - 212: {fileID: 648494894}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8058,7 +8539,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &649968935
@@ -8120,7 +8601,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &654505562
@@ -8134,7 +8615,7 @@ GameObject:
   - 212: {fileID: 654505563}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8173,6 +8654,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 382394756}
   m_RootOrder: 13
+--- !u!1 &658306476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 658306477}
+  - 58: {fileID: 658306479}
+  - 114: {fileID: 658306478}
+  m_Layer: 8
+  m_Name: AggressionRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658306477
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 658306476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 807518972}
+  m_RootOrder: 0
+--- !u!114 &658306478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401482, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 658306476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &658306479
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801486, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 658306476}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 6
+  m_Center: {x: 0, y: 0}
 --- !u!1 &659101001
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,7 +8742,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &659101003
@@ -8270,7 +8804,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &665958797
@@ -8308,7 +8842,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &665958799
@@ -8413,6 +8947,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &671196894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 671196895}
+  m_Layer: 0
+  m_Name: ForestChunkBottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &671196895
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 671196894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 110.370003, y: -4.0999999, z: 20}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 388791104}
+  - {fileID: 1536423872}
+  - {fileID: 1987941343}
+  - {fileID: 1105886321}
+  m_Father: {fileID: 382394756}
+  m_RootOrder: 83
 --- !u!1 &676085863
 GameObject:
   m_ObjectHideFlags: 0
@@ -8448,7 +9013,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .183823526, g: .167119071, b: .145977512, a: 1}
 --- !u!4 &676085865
@@ -8474,7 +9039,7 @@ GameObject:
   - 212: {fileID: 676296766}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8560,7 +9125,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &691330241
@@ -8574,7 +9139,7 @@ GameObject:
   - 212: {fileID: 691330243}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8624,7 +9189,7 @@ GameObject:
   - 212: {fileID: 694274115}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8698,7 +9263,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &703861954
@@ -8724,7 +9289,7 @@ GameObject:
   - 212: {fileID: 705042949}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8799,7 +9364,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &708036342
@@ -8825,7 +9390,7 @@ GameObject:
   - 212: {fileID: 714121710}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8876,7 +9441,7 @@ GameObject:
   - 212: {fileID: 714771866}
   m_Layer: 0
   m_Name: Graveyard_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8926,7 +9491,7 @@ GameObject:
   - 212: {fileID: 718850785}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8976,7 +9541,7 @@ GameObject:
   - 212: {fileID: 724398366}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9050,7 +9615,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &724865192
@@ -9069,7 +9634,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 184876, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 725791198}
@@ -9086,7 +9651,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 484876, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 725791197}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -9099,7 +9664,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11484876, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 725791197}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -9111,7 +9676,7 @@ CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5884876, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 725791197}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -9129,7 +9694,7 @@ GameObject:
   - 212: {fileID: 729248684}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9203,7 +9768,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &729782664
@@ -9253,7 +9818,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &743398943
@@ -9315,7 +9880,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .735294104, g: .735294104, b: .735294104, a: 1}
 --- !u!1 &750985731
@@ -9353,7 +9918,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &750985733
@@ -9415,7 +9980,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &776218322
@@ -9496,7 +10061,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &786671404
@@ -9534,7 +10099,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &786671406
@@ -9584,7 +10149,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &802111728
@@ -9648,6 +10213,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 856000005}
   m_RootOrder: 4
+--- !u!1 &807518966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 807518972}
+  - 212: {fileID: 807518971}
+  - 95: {fileID: 807518970}
+  - 114: {fileID: 807518969}
+  - 50: {fileID: 807518968}
+  - 61: {fileID: 807518967}
+  m_Layer: 11
+  m_Name: Knight
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &807518967
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6101488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1.1484375, y: 2.27148438}
+  m_Center: {x: 0, y: -.141489595}
+--- !u!50 &807518968
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5001488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_Mass: 1
+  m_LinearDrag: 7
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!114 &807518969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95deaf446113ec04b9bd4a4460b4a370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialHealth: 50
+  _moveSpeed: .100000001
+  _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
+  _currentWearable: {fileID: 0}
+  _currentWeapon: {fileID: 2130413899}
+  _aggressionRange: {fileID: 658306476}
+  _disengageRange: {fileID: 294949733}
+--- !u!95 &807518970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9501488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc4f7251022446641bfd3d689be3e258, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &807518971
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21201488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300004, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &807518972
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 807518966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.6100006, y: -12.8100004, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 658306477}
+  - {fileID: 294949734}
+  - {fileID: 2130413900}
+  m_Father: {fileID: 0}
+  m_RootOrder: 167
 --- !u!1 &809120919
 GameObject:
   m_ObjectHideFlags: 0
@@ -9683,7 +10369,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &809120921
@@ -9757,9 +10443,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 813446955}
   - 212: {fileID: 813446954}
+  - 58: {fileID: 813446956}
   m_Layer: 0
   m_Name: Graveyard_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9798,6 +10485,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 105
+--- !u!58 &813446956
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813446953}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .600000024
+  m_Center: {x: .400000006, y: -1.14999998}
 --- !u!1 &813805917
 GameObject:
   m_ObjectHideFlags: 0
@@ -9809,7 +10507,7 @@ GameObject:
   - 212: {fileID: 813805918}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9833,7 +10531,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300004, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &813805919
@@ -9859,7 +10557,7 @@ GameObject:
   - 212: {fileID: 817465178}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9992,7 +10690,7 @@ GameObject:
   - 212: {fileID: 820628273}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10066,7 +10764,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &824497948
@@ -10092,7 +10790,7 @@ GameObject:
   - 212: {fileID: 827671133}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10173,7 +10871,7 @@ GameObject:
   - 212: {fileID: 828780950}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10247,7 +10945,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &835760887
@@ -10297,7 +10995,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .522058845, g: .291738778, b: .291738778, a: .384313732}
 --- !u!4 &837608345
@@ -10323,7 +11021,7 @@ GameObject:
   - 212: {fileID: 847412887}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10347,7 +11045,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &847412888
@@ -10476,6 +11174,76 @@ Transform:
   - {fileID: 1879959725}
   m_Father: {fileID: 382394756}
   m_RootOrder: 7
+--- !u!1 &864546182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 864546183}
+  - 114: {fileID: 864546184}
+  - 212: {fileID: 864546185}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &864546183
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 864546182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1542475223}
+  m_Father: {fileID: 570389830}
+  m_RootOrder: 2
+--- !u!114 &864546184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 864546182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _impactRange: {fileID: 1542475220}
+  _baseDamage: 10
+  _cooldown: .5
+  IsReady: 1
+  _knockBackImpact: 4
+--- !u!212 &864546185
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 864546182}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &868317524
 GameObject:
   m_ObjectHideFlags: 0
@@ -10487,7 +11255,7 @@ GameObject:
   - 212: {fileID: 868317526}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10573,7 +11341,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .742647052, g: .742647052, b: .742647052, a: 1}
 --- !u!1 &878664439
@@ -10587,7 +11355,7 @@ GameObject:
   - 212: {fileID: 878664441}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10662,7 +11430,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &884720305
@@ -10688,7 +11456,7 @@ GameObject:
   - 212: {fileID: 890737794}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10769,7 +11537,7 @@ GameObject:
   - 212: {fileID: 892450545}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10844,7 +11612,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &895040884
@@ -10894,7 +11662,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .129198477, g: .220588207, b: .0665008575, a: 1}
 --- !u!4 &903838568
@@ -10944,7 +11712,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &905747624
@@ -11069,7 +11837,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &917237929
@@ -11084,54 +11852,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 35
---- !u!1001 &918199529
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .0199999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -.100000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 11484872, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-      propertyPath: _slider
-      value: 
-      objectReference: {fileID: 819261749}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_RootGameObject: {fileID: 1283841348}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &920398645
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,7 +11913,7 @@ GameObject:
   - 212: {fileID: 921801704}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11243,7 +11963,7 @@ GameObject:
   - 212: {fileID: 922848809}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11344,7 +12064,7 @@ GameObject:
   - 212: {fileID: 930892400}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11395,7 +12115,7 @@ GameObject:
   - 212: {fileID: 940743922}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11498,7 +12218,7 @@ GameObject:
   - 212: {fileID: 943347330}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11604,7 +12324,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &958998312
@@ -11654,7 +12374,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &961798921
@@ -11716,7 +12436,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &968288021
@@ -11758,6 +12478,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 72
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 113256, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Depth
+      objectReference: {fileID: 0}
+    - target: {fileID: 113254, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Depth
+      objectReference: {fileID: 0}
+    - target: {fileID: 113252, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Depth
+      objectReference: {fileID: 0}
+    - target: {fileID: 113250, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Depth
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 104341763}
@@ -11778,7 +12518,7 @@ GameObject:
   - 61: {fileID: 975385283}
   m_Layer: 11
   m_Name: Knight
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11838,7 +12578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95deaf446113ec04b9bd4a4460b4a370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialHealth: 20
+  _initialHealth: 50
   _moveSpeed: .100000001
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
@@ -11895,7 +12635,7 @@ GameObject:
   - 212: {fileID: 979123437}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11973,6 +12713,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 157
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 1883344663}
@@ -12025,7 +12769,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1020072230
@@ -12075,7 +12819,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1020121296
@@ -12089,7 +12833,7 @@ GameObject:
   - 212: {fileID: 1020121298}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12139,7 +12883,7 @@ GameObject:
   - 212: {fileID: 1020576401}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12225,7 +12969,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1029735383
@@ -12263,7 +13007,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1029735385
@@ -12289,7 +13033,7 @@ GameObject:
   - 212: {fileID: 1033318937}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12313,7 +13057,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1033318938
@@ -12339,7 +13083,7 @@ GameObject:
   - 212: {fileID: 1040775389}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12389,7 +13133,7 @@ GameObject:
   - 212: {fileID: 1044660281}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12471,7 +13215,7 @@ GameObject:
   - 212: {fileID: 1049496100}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12521,7 +13265,7 @@ GameObject:
   - 212: {fileID: 1050103795}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12572,7 +13316,7 @@ GameObject:
   - 212: {fileID: 1052128949}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12647,7 +13391,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1053931721
@@ -12697,7 +13441,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1054611924
@@ -12723,7 +13467,7 @@ GameObject:
   - 212: {fileID: 1059119399}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12809,7 +13553,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1073072728
@@ -12823,7 +13567,7 @@ GameObject:
   - 212: {fileID: 1073072729}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12847,7 +13591,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300004, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1073072730
@@ -12873,7 +13617,7 @@ GameObject:
   - 212: {fileID: 1085328365}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12948,7 +13692,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1085732649
@@ -12974,7 +13718,7 @@ GameObject:
   - 212: {fileID: 1100560315}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13025,7 +13769,7 @@ GameObject:
   - 212: {fileID: 1102902578}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13096,6 +13840,57 @@ Transform:
   - {fileID: 1346547782}
   m_Father: {fileID: 382394756}
   m_RootOrder: 0
+--- !u!1 &1105886320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184480, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1105886321}
+  - 212: {fileID: 1105886322}
+  m_Layer: 0
+  m_Name: FirChunk_1
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1105886321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484480, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1105886320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 671196895}
+  m_RootOrder: 3
+--- !u!212 &1105886322
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21284482, guid: 491e36d4817010746b25ade8fbe759a2,
+    type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1105886320}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 13
+  m_Sprite: {fileID: 21300002, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
+  m_Color: {r: .477941155, g: .477941155, b: .477941155, a: 1}
 --- !u!1 &1106458491
 GameObject:
   m_ObjectHideFlags: 0
@@ -13107,7 +13902,7 @@ GameObject:
   - 212: {fileID: 1106458493}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13158,7 +13953,7 @@ GameObject:
   - 212: {fileID: 1121508785}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13379,7 +14174,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1140866429
@@ -13405,7 +14200,7 @@ GameObject:
   - 212: {fileID: 1142352919}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13445,6 +14240,54 @@ SpriteRenderer:
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300002, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &1145456707
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 11484872, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+      propertyPath: _slider
+      value: 
+      objectReference: {fileID: 819261749}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
+  m_RootGameObject: {fileID: 1283841348}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1152437922
 GameObject:
   m_ObjectHideFlags: 0
@@ -13456,7 +14299,7 @@ GameObject:
   - 212: {fileID: 1152437924}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13507,7 +14350,7 @@ GameObject:
   - 212: {fileID: 1162377228}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13557,7 +14400,7 @@ GameObject:
   - 212: {fileID: 1164447162}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13643,7 +14486,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1165900922
@@ -13693,7 +14536,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1175026129
@@ -13707,7 +14550,7 @@ GameObject:
   - 212: {fileID: 1175026131}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13758,7 +14601,7 @@ GameObject:
   - 212: {fileID: 1177179369}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13809,7 +14652,7 @@ GameObject:
   - 212: {fileID: 1180975486}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13859,7 +14702,7 @@ GameObject:
   - 212: {fileID: 1185411393}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13909,7 +14752,7 @@ GameObject:
   - 212: {fileID: 1189331076}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13959,7 +14802,7 @@ GameObject:
   - 212: {fileID: 1192060681}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14010,7 +14853,7 @@ GameObject:
   - 212: {fileID: 1192848689}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14097,7 +14940,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1202086192
@@ -14111,7 +14954,7 @@ GameObject:
   - 212: {fileID: 1202086193}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14188,6 +15031,10 @@ Prefab:
     - target: {fileID: 413248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
@@ -14276,6 +15123,76 @@ PolygonCollider2D:
       - {x: -14.3422546, y: -3.06151581}
       - {x: -9.60327625, y: -2.2158041}
       - {x: -.95105648, y: .309017122}
+--- !u!1 &1216328655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1216328657}
+  - 114: {fileID: 1216328656}
+  - 212: {fileID: 1216328658}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1216328656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1216328655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _impactRange: {fileID: 524740007}
+  _baseDamage: 10
+  _cooldown: 2
+  IsReady: 1
+  _knockBackImpact: 4
+--- !u!4 &1216328657
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1216328655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 524740008}
+  m_Father: {fileID: 2118510346}
+  m_RootOrder: 2
+--- !u!212 &1216328658
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1216328655}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1221931853
 GameObject:
   m_ObjectHideFlags: 0
@@ -14323,7 +15240,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1224494060
@@ -14337,7 +15254,7 @@ GameObject:
   - 212: {fileID: 1224494062}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14387,7 +15304,7 @@ GameObject:
   - 212: {fileID: 1235922447}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14438,7 +15355,7 @@ GameObject:
   - 212: {fileID: 1236047069}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14525,7 +15442,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1243336517
@@ -14563,7 +15480,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1243336519
@@ -14578,6 +15495,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1747360033}
   m_RootOrder: 23
+--- !u!1 &1243349160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1243349161}
+  - 58: {fileID: 1243349163}
+  - 114: {fileID: 1243349162}
+  m_Layer: 8
+  m_Name: AggressionRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1243349161
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1243349160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 570389830}
+  m_RootOrder: 0
+--- !u!114 &1243349162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401482, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1243349160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1243349163
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801486, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1243349160}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 6
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1250852428
 GameObject:
   m_ObjectHideFlags: 0
@@ -14589,7 +15559,7 @@ GameObject:
   - 212: {fileID: 1250852430}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14640,7 +15610,7 @@ GameObject:
   - 212: {fileID: 1253150887}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14714,7 +15684,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1255586227
@@ -14764,7 +15734,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1256624187
@@ -14814,7 +15784,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .625, g: .376901627, b: .151654407, a: 1}
 --- !u!4 &1258075067
@@ -14890,7 +15860,7 @@ GameObject:
   - 212: {fileID: 1272394676}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14914,7 +15884,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1272394677
@@ -14964,7 +15934,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1272570099
@@ -14983,7 +15953,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 184870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1283841352}
@@ -14995,7 +15965,7 @@ GameObject:
   - 95: {fileID: 1283841355}
   m_Layer: 9
   m_Name: Bear
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15005,7 +15975,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11484872, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15023,7 +15993,7 @@ Rigidbody2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5084876, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Mass: 1
   m_LinearDrag: 7
@@ -15039,7 +16009,7 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 21284874, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Enabled: 1
   m_CastShadows: 0
@@ -15061,10 +16031,10 @@ SpriteRenderer:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 484870, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0199999996, y: -.100000001, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1295698552}
@@ -15075,7 +16045,7 @@ CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5884874, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -15087,7 +16057,7 @@ CircleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 5884872, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Enabled: 1
   m_Material: {fileID: 0}
@@ -15100,7 +16070,7 @@ Animator:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9584876, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1283841348}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
@@ -15121,7 +16091,7 @@ GameObject:
   - 212: {fileID: 1286832224}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15172,7 +16142,7 @@ GameObject:
   - 212: {fileID: 1288501538}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15215,7 +16185,7 @@ SpriteRenderer:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 184874, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1295698552}
@@ -15232,7 +16202,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 484874, guid: a94010abdae1d4d43ba467a7c2c49699, type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1295698551}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.0199999996, y: .100000001, z: 0}
@@ -15246,7 +16216,7 @@ SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 21284876, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1295698551}
   m_Enabled: 0
   m_CastShadows: 0
@@ -15269,7 +16239,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11484874, guid: a94010abdae1d4d43ba467a7c2c49699,
     type: 2}
-  m_PrefabInternal: {fileID: 918199529}
+  m_PrefabInternal: {fileID: 1145456707}
   m_GameObject: {fileID: 1295698551}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15292,7 +16262,7 @@ GameObject:
   - 212: {fileID: 1298623485}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15342,7 +16312,7 @@ GameObject:
   - 212: {fileID: 1298839695}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15392,7 +16362,7 @@ GameObject:
   - 212: {fileID: 1301443604}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15467,7 +16437,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .617647052, g: .322448075, b: .322448075, a: .384313732}
 --- !u!4 &1314011259
@@ -15493,7 +16463,7 @@ GameObject:
   - 212: {fileID: 1323159767}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15532,6 +16502,59 @@ SpriteRenderer:
   m_SortingOrder: 9
   m_Sprite: {fileID: 21300000, guid: a8a1022e5b0e69747a20825ed302a788, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1323980473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1323980474}
+  - 58: {fileID: 1323980476}
+  - 114: {fileID: 1323980475}
+  m_Layer: 8
+  m_Name: AggressionRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1323980474
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401482, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1323980473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2118510346}
+  m_RootOrder: 0
+--- !u!114 &1323980475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401482, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1323980473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1323980476
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801486, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1323980473}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 6
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1326162742
 GameObject:
   m_ObjectHideFlags: 0
@@ -15579,7 +16602,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1331446395
@@ -15593,7 +16616,7 @@ GameObject:
   - 212: {fileID: 1331446397}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15667,7 +16690,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .345588207, g: .319791764, b: .287143141, a: 1}
 --- !u!4 &1333959120
@@ -15729,7 +16752,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .727941155, g: .727941155, b: .727941155, a: 1}
 --- !u!1 &1346547781
@@ -15743,7 +16766,7 @@ GameObject:
   - 212: {fileID: 1346547783}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15794,7 +16817,7 @@ GameObject:
   - 212: {fileID: 1348780469}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15844,7 +16867,7 @@ GameObject:
   - 212: {fileID: 1362707485}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15947,7 +16970,7 @@ GameObject:
   - 212: {fileID: 1371722106}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15986,6 +17009,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 162
+--- !u!1 &1371903342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1371903343}
+  - 58: {fileID: 1371903345}
+  - 114: {fileID: 1371903344}
+  m_Layer: 8
+  m_Name: ImpactRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1371903343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 1371903342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2130413900}
+  m_RootOrder: 0
+--- !u!114 &1371903344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 1371903342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1371903345
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5805216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 1371903342}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 1
+  m_Center: {x: .569999993, y: 0}
 --- !u!1 &1374153370
 GameObject:
   m_ObjectHideFlags: 0
@@ -16149,6 +17225,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 73
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 1990247468}
@@ -16165,7 +17245,7 @@ GameObject:
   - 212: {fileID: 1383551300}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16282,7 +17362,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &1409510055
@@ -16308,7 +17388,7 @@ GameObject:
   - 212: {fileID: 1412631838}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16387,6 +17467,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 159
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 272723039}
@@ -16403,7 +17487,7 @@ GameObject:
   - 212: {fileID: 1419201002}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16482,6 +17566,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 158
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 24625925}
@@ -16522,7 +17610,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1422096789
@@ -16548,7 +17636,7 @@ GameObject:
   - 212: {fileID: 1423994679}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16634,7 +17722,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1433514337
@@ -16648,7 +17736,7 @@ GameObject:
   - 212: {fileID: 1433514339}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16768,7 +17856,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .727941155, g: .727941155, b: .727941155, a: 1}
 --- !u!1001 &1451266511
@@ -16810,6 +17898,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 212573739}
@@ -16826,7 +17918,7 @@ GameObject:
   - 212: {fileID: 1451574476}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16912,7 +18004,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -90
+  m_SortingOrder: -32766
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .735294104, g: .735294104, b: .735294104, a: 1}
 --- !u!1 &1459510027
@@ -16962,7 +18054,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1473387775
@@ -17026,7 +18118,7 @@ GameObject:
   - 212: {fileID: 1477867048}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17066,6 +18158,59 @@ SpriteRenderer:
   m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1497472760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1497472761}
+  - 58: {fileID: 1497472763}
+  - 114: {fileID: 1497472762}
+  m_Layer: 8
+  m_Name: DisengageRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1497472761
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401488, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1497472760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2118510346}
+  m_RootOrder: 1
+--- !u!114 &1497472762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1497472760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1497472763
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5801488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 1497472760}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 9
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1504452214
 GameObject:
   m_ObjectHideFlags: 0
@@ -17077,7 +18222,7 @@ GameObject:
   - 212: {fileID: 1504452216}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17152,7 +18297,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1513602701
@@ -17178,7 +18323,7 @@ GameObject:
   - 212: {fileID: 1517310585}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17229,7 +18374,7 @@ GameObject:
   - 212: {fileID: 1519242737}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17319,6 +18464,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 96
+--- !u!1 &1536423871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184474, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1536423872}
+  - 212: {fileID: 1536423873}
+  m_Layer: 0
+  m_Name: FirChunk_0
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1536423872
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484474, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1536423871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.92000008, y: 2.37999916, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 671196895}
+  m_RootOrder: 1
+--- !u!212 &1536423873
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21284476, guid: 491e36d4817010746b25ade8fbe759a2,
+    type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1536423871}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 11
+  m_Sprite: {fileID: 21300000, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
+  m_Color: {r: .816176474, g: .816176474, b: .816176474, a: 1}
 --- !u!1 &1540252009
 GameObject:
   m_ObjectHideFlags: 0
@@ -17354,7 +18550,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1540252011
@@ -17369,6 +18565,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
+--- !u!1 &1542475220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1542475223}
+  - 58: {fileID: 1542475222}
+  - 114: {fileID: 1542475221}
+  m_Layer: 8
+  m_Name: ImpactRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1542475221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1542475220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea57e732ad49074cb5f0d949073f6a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &1542475222
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5805216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1542475220}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Radius: 1
+  m_Center: {x: .569999993, y: 0}
+--- !u!4 &1542475223
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1726190721}
+  m_GameObject: {fileID: 1542475220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 864546183}
+  m_RootOrder: 0
 --- !u!1 &1545842373
 GameObject:
   m_ObjectHideFlags: 0
@@ -17380,7 +18629,7 @@ GameObject:
   - 212: {fileID: 1545842375}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17455,7 +18704,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .625, g: .376901627, b: .151654407, a: 1}
 --- !u!4 &1548299605
@@ -17509,6 +18758,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 76
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 827839426}
@@ -17525,7 +18778,7 @@ GameObject:
   - 212: {fileID: 1550996889}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17625,7 +18878,7 @@ GameObject:
   - 212: {fileID: 1553211535}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17731,7 +18984,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1555715468
@@ -17788,7 +19041,7 @@ GameObject:
   - 212: {fileID: 1557040965}
   m_Layer: 0
   m_Name: Graveyard_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17827,6 +19080,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 104
+--- !u!1001 &1558925062
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 73.1399994
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -12.8100004
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_RootOrder
+      value: 169
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _currentWeapon
+      value: 
+      objectReference: {fileID: 1216328656}
+    - target: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _cooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824,
+        type: 3}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_RootGameObject: {fileID: 2118510340}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1560864369
 GameObject:
   m_ObjectHideFlags: 0
@@ -17838,7 +19152,7 @@ GameObject:
   - 212: {fileID: 1560864370}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17862,7 +19176,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1560864371
@@ -17962,7 +19276,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1567367924
@@ -17988,7 +19302,7 @@ GameObject:
   - 212: {fileID: 1577323061}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18062,7 +19376,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1577897963
@@ -18088,7 +19402,7 @@ GameObject:
   - 212: {fileID: 1578793242}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18170,7 +19484,7 @@ GameObject:
   - 212: {fileID: 1592431588}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18209,6 +19523,45 @@ SpriteRenderer:
   m_SortingOrder: 15
   m_Sprite: {fileID: 21300000, guid: a8a1022e5b0e69747a20825ed302a788, type: 3}
   m_Color: {r: .580882311, g: .580882311, b: .580882311, a: 1}
+--- !u!1 &1593023557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1593023559}
+  - 114: {fileID: 1593023558}
+  m_Layer: 0
+  m_Name: DepthManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1593023558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593023557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e7ab506bdc8404baec04bdcd3bcdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1593023559
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593023557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.3753815, y: 4.25977087, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 170
 --- !u!1 &1595316023
 GameObject:
   m_ObjectHideFlags: 0
@@ -18220,7 +19573,7 @@ GameObject:
   - 212: {fileID: 1595316025}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18271,7 +19624,7 @@ GameObject:
   - 212: {fileID: 1603720816}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18321,7 +19674,7 @@ GameObject:
   - 212: {fileID: 1604043038}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18396,7 +19749,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1611894079
@@ -18422,7 +19775,7 @@ GameObject:
   - 212: {fileID: 1611923907}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18472,7 +19825,7 @@ GameObject:
   - 212: {fileID: 1613562483}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18496,7 +19849,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1613562484
@@ -18522,7 +19875,7 @@ GameObject:
   - 212: {fileID: 1621816853}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18573,7 +19926,7 @@ GameObject:
   - 212: {fileID: 1624551728}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18623,7 +19976,7 @@ GameObject:
   - 212: {fileID: 1627956272}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19766,7 +21119,7 @@ GameObject:
   - 212: {fileID: 1638956121}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19851,13 +21204,17 @@ Prefab:
       objectReference: {fileID: 1849959404}
     - target: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
       propertyPath: _cooldown
-      value: 2
+      value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824,
         type: 3}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _initialHealth
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
   m_RootGameObject: {fileID: 1711246477}
@@ -19874,7 +21231,7 @@ GameObject:
   - 212: {fileID: 1660279044}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20011,7 +21368,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1663681984
@@ -20025,7 +21382,7 @@ GameObject:
   - 212: {fileID: 1663681986}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20076,7 +21433,7 @@ GameObject:
   - 212: {fileID: 1664308479}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20127,7 +21484,7 @@ GameObject:
   - 212: {fileID: 1664359617}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20178,7 +21535,7 @@ GameObject:
   - 212: {fileID: 1664954464}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20229,7 +21586,7 @@ GameObject:
   - 212: {fileID: 1679441422}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20253,7 +21610,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1679441423
@@ -20279,7 +21636,7 @@ GameObject:
   - 212: {fileID: 1686522448}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20330,7 +21687,7 @@ GameObject:
   - 212: {fileID: 1690336400}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20381,7 +21738,7 @@ GameObject:
   - 212: {fileID: 1693301769}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20431,7 +21788,7 @@ GameObject:
   - 212: {fileID: 1699922459}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20483,7 +21840,7 @@ GameObject:
   - 212: {fileID: 1708725297}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20515,7 +21872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _impactRange: {fileID: 592040197}
   _baseDamage: 10
-  _cooldown: 2
+  _cooldown: .5
   IsReady: 1
   _knockBackImpact: 4
 --- !u!212 &1708725297
@@ -20606,7 +21963,7 @@ GameObject:
   - 61: {fileID: 1711246478}
   m_Layer: 11
   m_Name: Knight
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20651,7 +22008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95deaf446113ec04b9bd4a4460b4a370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initialHealth: 20
+  _initialHealth: 50
   _moveSpeed: .100000001
   _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
   _currentWearable: {fileID: 0}
@@ -20723,7 +22080,7 @@ GameObject:
   - 212: {fileID: 1711608933}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20797,7 +22154,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -32683
   m_Sprite: {fileID: 21300000, guid: 188d0704c09ac8141a8d158a342db164, type: 3}
   m_Color: {r: .639705896, g: .423788846, b: .150519028, a: 1}
 --- !u!4 &1720060485
@@ -20847,7 +22204,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1723137934
@@ -20862,6 +22219,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1747360033}
   m_RootOrder: 2
+--- !u!1001 &1726190721
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 47.7299995
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.46999979
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_RootOrder
+      value: 168
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _currentWeapon
+      value: 
+      objectReference: {fileID: 864546184}
+    - target: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _cooldown
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824,
+        type: 3}
+    - target: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+      propertyPath: _initialHealth
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_RootGameObject: {fileID: 570389829}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1728403964
 GameObject:
   m_ObjectHideFlags: 0
@@ -20909,7 +22331,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1728540026
@@ -20923,7 +22345,7 @@ GameObject:
   - 212: {fileID: 1728540027}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21050,7 +22472,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1740956400
@@ -21076,7 +22498,7 @@ GameObject:
   - 212: {fileID: 1741373040}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21126,7 +22548,7 @@ GameObject:
   - 212: {fileID: 1742892323}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21177,7 +22599,7 @@ GameObject:
   - 212: {fileID: 1744602177}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21327,7 +22749,7 @@ GameObject:
   - 212: {fileID: 1747533321}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21489,7 +22911,7 @@ GameObject:
   - 212: {fileID: 1759084996}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21576,7 +22998,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1772137375
@@ -21670,7 +23092,7 @@ GameObject:
   - 212: {fileID: 1788407058}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21721,7 +23143,7 @@ GameObject:
   - 212: {fileID: 1798350710}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21771,7 +23193,7 @@ GameObject:
   - 212: {fileID: 1801687926}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21822,7 +23244,7 @@ GameObject:
   - 212: {fileID: 1801802301}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21904,7 +23326,7 @@ GameObject:
   - 212: {fileID: 1815140873}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21990,7 +23412,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &1821741487
@@ -22032,6 +23454,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 1048121573}
@@ -22048,7 +23474,7 @@ GameObject:
   - 212: {fileID: 1829551053}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22134,7 +23560,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1837629655
@@ -22148,7 +23574,7 @@ GameObject:
   - 212: {fileID: 1837629657}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22223,7 +23649,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1837686069
@@ -22299,7 +23725,7 @@ GameObject:
   - 212: {fileID: 1843388604}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22350,7 +23776,7 @@ GameObject:
   - 212: {fileID: 1849959403}
   m_Layer: 0
   m_Name: Sword
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22392,7 +23818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _impactRange: {fileID: 244691742}
   _baseDamage: 10
-  _cooldown: 2
+  _cooldown: .5
   IsReady: 1
   _knockBackImpact: 4
 --- !u!4 &1849959405
@@ -22469,7 +23895,7 @@ GameObject:
   - 212: {fileID: 1855909400}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22520,7 +23946,7 @@ GameObject:
   - 212: {fileID: 1857270853}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22594,7 +24020,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1863751293
@@ -22644,7 +24070,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -95
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .522058845, g: .291738778, b: .291738778, a: .384313732}
 --- !u!4 &1870349845
@@ -22694,7 +24120,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1879405769
@@ -22756,7 +24182,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1879959724
@@ -22770,7 +24196,7 @@ GameObject:
   - 212: {fileID: 1879959726}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22852,7 +24278,7 @@ GameObject:
   - 212: {fileID: 1890296432}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22902,7 +24328,7 @@ GameObject:
   - 212: {fileID: 1894925874}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22926,7 +24352,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1894925875
@@ -23002,7 +24428,7 @@ GameObject:
   - 212: {fileID: 1921291070}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23052,7 +24478,7 @@ GameObject:
   - 212: {fileID: 1925176777}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23103,7 +24529,7 @@ GameObject:
   - 212: {fileID: 1940735861}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23178,7 +24604,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1946894887
@@ -23297,7 +24723,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1958881756
@@ -23335,7 +24761,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1958881758
@@ -23361,7 +24787,7 @@ GameObject:
   - 212: {fileID: 1964718994}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23435,7 +24861,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1966211885
@@ -23511,7 +24937,7 @@ GameObject:
   - 212: {fileID: 1973402022}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23562,7 +24988,7 @@ GameObject:
   - 212: {fileID: 1974170800}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23612,7 +25038,7 @@ GameObject:
   - 212: {fileID: 1974324525}
   m_Layer: 0
   m_Name: Fence_Double
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23662,7 +25088,7 @@ GameObject:
   - 212: {fileID: 1975416673}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23737,7 +25163,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1976862344
@@ -23763,7 +25189,7 @@ GameObject:
   - 212: {fileID: 1984427350}
   m_Layer: 0
   m_Name: FirChunk_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23803,6 +25229,57 @@ SpriteRenderer:
   m_SortingOrder: -12
   m_Sprite: {fileID: 21300004, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
   m_Color: {r: .551470578, g: .551470578, b: .551470578, a: 1}
+--- !u!1 &1987941342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 184478, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1987941343}
+  - 212: {fileID: 1987941344}
+  m_Layer: 0
+  m_Name: FirChunk_2
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1987941343
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 484478, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1987941342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .960000038, y: 1.15999889, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 671196895}
+  m_RootOrder: 2
+--- !u!212 &1987941344
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21284480, guid: 491e36d4817010746b25ade8fbe759a2,
+    type: 2}
+  m_PrefabInternal: {fileID: 189732308}
+  m_GameObject: {fileID: 1987941342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 12
+  m_Sprite: {fileID: 21300004, guid: dff0cef9bd7b33849969a7644c8ac374, type: 3}
+  m_Color: {r: .610294104, g: .610294104, b: .610294104, a: 1}
 --- !u!1 &1988709220
 GameObject:
   m_ObjectHideFlags: 0
@@ -23931,7 +25408,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1998689559
@@ -23945,7 +25422,7 @@ GameObject:
   - 212: {fileID: 1998689560}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24019,7 +25496,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &1999552025
@@ -24069,7 +25546,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2000010048
@@ -24095,7 +25572,7 @@ GameObject:
   - 212: {fileID: 2000156679}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24146,7 +25623,7 @@ GameObject:
   - 212: {fileID: 2009178708}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24170,7 +25647,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300006, guid: 39ad019e195d9d841852631e96fbdb83, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2009178709
@@ -24251,7 +25728,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -20
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: .588235259, g: .588235259, b: .588235259, a: 1}
 --- !u!4 &2015436455
@@ -24301,7 +25778,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2017466000
@@ -24351,7 +25828,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -10
+  m_SortingOrder: -32767
   m_Sprite: {fileID: 21300002, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .384313732}
 --- !u!4 &2020471373
@@ -24377,7 +25854,7 @@ GameObject:
   - 212: {fileID: 2022596972}
   m_Layer: 0
   m_Name: FirChunk_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24456,6 +25933,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 75
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 914806068}
@@ -24496,7 +25977,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2029834073
@@ -24553,7 +26034,7 @@ GameObject:
   - 212: {fileID: 2032760227}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24639,7 +26120,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2044548227
@@ -24720,7 +26201,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2048452077
@@ -24762,6 +26243,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 892437823}
@@ -24778,7 +26263,7 @@ GameObject:
   - 212: {fileID: 2052345500}
   m_Layer: 0
   m_Name: Graveyard_2
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24856,6 +26341,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 79
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 98181998}
@@ -24908,7 +26397,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2065145500
@@ -25006,7 +26495,7 @@ GameObject:
   - 212: {fileID: 2065988888}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25092,7 +26581,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2067094946
@@ -25106,7 +26595,7 @@ GameObject:
   - 212: {fileID: 2067094948}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25156,7 +26645,7 @@ GameObject:
   - 212: {fileID: 2071965924}
   m_Layer: 0
   m_Name: FirChunk_0
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25207,7 +26696,7 @@ GameObject:
   - 212: {fileID: 2075182845}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25285,6 +26774,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 113248, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cdc12bae9b588554aa61e611fbeb32a5, type: 2}
   m_RootGameObject: {fileID: 1103772900}
@@ -25352,7 +26845,7 @@ GameObject:
   m_Layer: 0
   m_Name: Graveyard_Wall
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1376725286, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -25380,8 +26873,8 @@ PolygonCollider2D:
   m_Poly:
     m_Paths:
     - - {x: -36.7512054, y: 11.5181675}
-      - {x: -36.5005264, y: 5.81262445}
-      - {x: -37.6528778, y: 5.80540037}
+      - {x: -36.5605011, y: 6.95223951}
+      - {x: -37.5329208, y: 7.06497431}
       - {x: -37.8606567, y: 11.3814049}
       - {x: -37.7794342, y: 14.0153646}
       - {x: .448928833, y: 13.9692192}
@@ -25389,8 +26882,8 @@ PolygonCollider2D:
       - {x: .639389038, y: -13.8639765}
       - {x: -37.8723373, y: -13.8601465}
       - {x: -37.6720734, y: -11.8115873}
-      - {x: -37.6589203, y: 1.36552715}
-      - {x: -36.5036697, y: 1.33415318}
+      - {x: -37.5989456, y: 2.74505711}
+      - {x: -36.6236267, y: 2.3538084}
       - {x: -36.3431549, y: -11.8721094}
       - {x: -.539611816, y: -11.9394922}
       - {x: -.45223999, y: 11.3328552}
@@ -25455,7 +26948,7 @@ GameObject:
   - 212: {fileID: 2118169368}
   m_Layer: 0
   m_Name: Graveyard_3
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25494,6 +26987,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 126
+--- !u!1 &2118510340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 101484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2118510346}
+  - 212: {fileID: 2118510345}
+  - 95: {fileID: 2118510344}
+  - 114: {fileID: 2118510343}
+  - 50: {fileID: 2118510342}
+  - 61: {fileID: 2118510341}
+  m_Layer: 11
+  m_Name: Knight
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &2118510341
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6101488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1.1484375, y: 2.27148438}
+  m_Center: {x: 0, y: -.141489595}
+--- !u!50 &2118510342
+Rigidbody2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 5001488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_Mass: 1
+  m_LinearDrag: 7
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!114 &2118510343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11401484, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95deaf446113ec04b9bd4a4460b4a370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialHealth: 20
+  _moveSpeed: .100000001
+  _dieParticle: {fileID: 187142, guid: ea2f65a64b63e3e4eae66cafa1a4557c, type: 2}
+  _currentWearable: {fileID: 0}
+  _currentWeapon: {fileID: 1216328656}
+  _aggressionRange: {fileID: 1323980473}
+  _disengageRange: {fileID: 1497472760}
+--- !u!95 &2118510344
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9501488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cc4f7251022446641bfd3d689be3e258, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!212 &2118510345
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21201488, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300004, guid: 888e934d90a82cb43bd0d074a79dcdb3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &2118510346
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401484, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 1558925062}
+  m_GameObject: {fileID: 2118510340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 73.1399994, y: -12.8100004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1323980474}
+  - {fileID: 1497472761}
+  - {fileID: 1216328657}
+  m_Father: {fileID: 0}
+  m_RootOrder: 169
 --- !u!1001 &2120922921
 Prefab:
   m_ObjectHideFlags: 0
@@ -25533,6 +27147,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 184482, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 491e36d4817010746b25ade8fbe759a2, type: 2}
   m_RootGameObject: {fileID: 2010699142}
@@ -25547,9 +27165,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 2130102195}
   - 212: {fileID: 2130102194}
+  - 58: {fileID: 2130102196}
   m_Layer: 0
   m_Name: Graveyard_1
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25588,6 +27207,87 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 107
+--- !u!58 &2130102196
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130102193}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: .400000006
+  m_Center: {x: 0, y: -.5}
+--- !u!1 &2130413898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2130413900}
+  - 114: {fileID: 2130413899}
+  - 212: {fileID: 2130413901}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Depth
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2130413899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11405214, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 2130413898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _impactRange: {fileID: 1371903342}
+  _baseDamage: 10
+  _cooldown: 2
+  IsReady: 1
+  _knockBackImpact: 4
+--- !u!4 &2130413900
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 405214, guid: 961572b38945b1946a929ca0eaa67e00, type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 2130413898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1371903343}
+  m_Father: {fileID: 807518972}
+  m_RootOrder: 2
+--- !u!212 &2130413901
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21205216, guid: 961572b38945b1946a929ca0eaa67e00,
+    type: 2}
+  m_PrefabInternal: {fileID: 270254577}
+  m_GameObject: {fileID: 2130413898}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 218a83d69f6abf743856058f3ac22824, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2136247589
 GameObject:
   m_ObjectHideFlags: 0
@@ -25599,7 +27299,7 @@ GameObject:
   - 212: {fileID: 2136247591}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25649,7 +27349,7 @@ GameObject:
   - 212: {fileID: 2136792558}
   m_Layer: 0
   m_Name: Fir
-  m_TagString: Untagged
+  m_TagString: Depth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25697,6 +27397,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2137130675}
   - 212: {fileID: 2137130674}
+  - 114: {fileID: 2137130676}
   m_Layer: 0
   m_Name: Fence_Double
   m_TagString: Untagged
@@ -25738,6 +27439,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 88
+--- !u!114 &2137130676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2137130673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e7ab506bdc8404baec04bdcd3bcdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2141954126
 GameObject:
   m_ObjectHideFlags: 0
@@ -25785,6 +27497,6 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -32768
   m_Sprite: {fileID: 21300000, guid: 0bef7255628ea0e449e01588b4770cc9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
