@@ -393,7 +393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7f9557eb6a5034bb5fbc59bda0eb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pickupKeyHint: {fileID: 0}
   _impactRange: {fileID: 184876}
   _baseDamage: 10
   _cooldown: .5
